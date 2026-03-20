@@ -1,0 +1,40 @@
+[workspace]
+authors = ["Fernando Ferraz Ribeiro <ffribeiro@gmail.com>"]
+channels = ["cadquery", "conda-forge"]
+name = "cadquery_basics"
+platforms = ["win-64","osx-arm64","osx-64","linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.12.*"
+ipykernel = ">=7.2.0,<8"
+numpy = ">=2.4.2,<3"
+pip = ">=26.0.1,<27"
+ipywidgets = ">=8.1.8,<9"
+ezdxf = ">=1.4.2,<2"
+
+
+[target.linux-64.dependencies]
+cadquery = "*"
+
+[pypi-dependencies]
+cadquery = ">=2.3.0, <3"
+jupyter-cadquery = ">=1.0.0, <2"
+ocp-vscode = "==3.1.2"
+cadquery-simpleviewer = ">=0.1.3, <0.2"
+
+[feature.docs.dependencies]
+mkdocs = "*"
+mkdocs-material = "*"
+mkdocs-jupyter = "*"
+
+[environments]
+default = ["docs"]
+
+
+
+
+
+
