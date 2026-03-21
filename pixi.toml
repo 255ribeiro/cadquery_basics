@@ -6,6 +6,8 @@ platforms = ["win-64","osx-arm64","osx-64","linux-64"]
 version = "0.1.0"
 
 [tasks]
+mkup ={ cmd = "mkdocs gh-deploy" }
+mksrv ={ cmd = "mkdocs serve" }
 
 [dependencies]
 python = "3.12.*"
@@ -14,6 +16,11 @@ numpy = ">=2.4.2,<3"
 pip = ">=26.0.1,<27"
 ipywidgets = ">=8.1.8,<9"
 ezdxf = ">=1.4.2,<2"
+mkdocs = "==1.5.3"
+mkdocs-jupyter = ">=0.24.6,<0.25"
+pymdown-extensions = ">=10.21,<11"
+mkdocs-material = ">=9.5.20,<10"
+
 
 
 [target.linux-64.dependencies]
@@ -24,19 +31,10 @@ cadquery = ">=2.3.0, <3"
 jupyter-cadquery = ">=1.0.0, <2"
 ocp-vscode = "==3.1.2"
 cadquery-simpleviewer = ">=0.2.2"
+# mkdocs = ">=1.5.1, <1.6.1"
+# mkdocs-jupyter = "*"
+# pymdown-extensions = "*"
 
-[feature.docs.pypi-dependencies]
-mkdocs = ">=1.6.1, <2"
-mkdocs-material = ">=9.7.6, <10"
-mkdocs-jupyter = ">=0.24.1, <0.25"
-
-
-
-
-
-[environments]
-
-default = ["docs"]
 
 
 

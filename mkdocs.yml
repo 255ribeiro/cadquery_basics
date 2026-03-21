@@ -11,7 +11,7 @@ theme:
     #- navigation.tabs
   name: material   
   language: en-custom
-  # custom_dir: docs\overrides
+  custom_dir: docs\overrides
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -51,11 +51,17 @@ markdown_extensions:
   - attr_list
   - toc:
       toc_depth: 1
+extra_css:
+  - overrides/css/extra_css.css
 
 
 plugins:
   - mkdocs-jupyter:
-      #execute: True
+      execute: False
+      # include:
+      #   - "./docs/tuto_colab/*.ipynb"
+      # execute_ignore:
+      #   - "./docs/tuto_vscode/*.ipynb"
       include_source: True
 
 
