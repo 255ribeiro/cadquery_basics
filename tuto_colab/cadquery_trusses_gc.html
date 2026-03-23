@@ -11,6 +11,10 @@
         <link rel="canonical" href="https://255ribeiro.github.io/cadquery_basics/tuto_colab/cadquery_trusses_gc.html">
       
       
+        <link rel="prev" href="cadquery_primitives_gc.html">
+      
+      
+        <link rel="next" href="2d_to_3d.html">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -233,17 +237,19 @@
       
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -257,7 +263,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Google Colab
@@ -310,18 +316,331 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../docs/tuto_colab/cadquery_trusses_gc.ipynb" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Treliças
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="cadquery_trusses_gc.html" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    treliças
+    Treliças
   </span>
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cadquery-para-arquitetos-e-engenheiros" class="md-nav__link">
+    <span class="md-ellipsis">
+      CadQuery para Arquitetos e Engenheiros
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CadQuery para Arquitetos e Engenheiros">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#versao-google-colab" class="md-nav__link">
+    <span class="md-ellipsis">
+      Versão Google Colab
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instalacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instalação
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#importacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Importações
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#revisao-listas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Revisão: Listas
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Revisão: Listas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#criacao-de-listas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Criação de listas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indices-acessando-elementos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Índices — acessando elementos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#append-adicionando-ao-final" class="md-nav__link">
+    <span class="md-ellipsis">
+      .append() — adicionando ao final
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#insert-adicionando-em-uma-posicao-especifica" class="md-nav__link">
+    <span class="md-ellipsis">
+      .insert() — adicionando em uma posição específica
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remove-removendo-pelo-valor" class="md-nav__link">
+    <span class="md-ellipsis">
+      .remove() — removendo pelo valor
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#del-removendo-pelo-indice" class="md-nav__link">
+    <span class="md-ellipsis">
+      del — removendo pelo índice
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#soma-numeros-textos-e-listas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Soma: números, textos e listas
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#revisao-comparacoes-logicas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Revisão: Comparações Lógicas
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Revisão: Comparações Lógicas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#par-impar-e-divisibilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Par, ímpar e divisibilidade
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#revisao-funcoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Revisão: Funções
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Revisão: Funções">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#funcao-que-imprime-sem-return" class="md-nav__link">
+    <span class="md-ellipsis">
+      Função que imprime — sem return
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#funcao-que-retorna-com-return" class="md-nav__link">
+    <span class="md-ellipsis">
+      Função que retorna — com return
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resumo-da-diferenca" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resumo da diferença
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pontos-no-espaco-3d" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pontos no Espaço 3D
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#polilinha" class="md-nav__link">
+    <span class="md-ellipsis">
+      Polilinha
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#trelica-definicao-dos-banzos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Treliça — Definição dos Banzos
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Treliça — Definição dos Banzos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#parametros-da-trelica" class="md-nav__link">
+    <span class="md-ellipsis">
+      Parâmetros da treliça
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#banzo-superior" class="md-nav__link">
+    <span class="md-ellipsis">
+      Banzo Superior
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#banzo-inferior" class="md-nav__link">
+    <span class="md-ellipsis">
+      Banzo Inferior
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#geracao-dos-nos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Geração dos Nós
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visualizacao-dos-banzos-e-nos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visualização dos Banzos e Nós
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercicio-continuacao-em-sala" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exercício — continuação em sala
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -334,11 +653,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../docs/tuto_colab/2d_to_3d.ipynb" class="md-nav__link">
+      <a href="2d_to_3d.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    modelagem
+    Introdução ao CadQuery com cadquery_simpleViewer
   </span>
   
 
@@ -1185,7 +1504,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 </style>
 <!-- End of mermaid configuration --><div class="jupyter-wrapper">
 <div class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=8da476be">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b43ec405">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
