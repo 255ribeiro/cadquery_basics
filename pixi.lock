@@ -407,7 +407,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/10/cb/f2ad4230dc2eb1a74edf38f1a38b9b52277f75bef262d8908e60d957e13c/blinker-1.9.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/72/76/20fa66124dbe6be5cafeb312ece67de6b61dd91a0247d1ea13db4ebb33c2/cachetools-5.5.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/e2/bd/0b9914104b9a6e9fd75566c993ed6e97767735acffbab6997a29c3fd94c3/cadquery-2.3.0-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/4d/67/57be46d0e8b905a2f0e2fa970803dd96d1fbe7edb846e23a2c4d2c3c5f75/cadquery_simpleviewer-0.2.2-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/40/15/313cc73323e8ce31ce1e8a490d3fe6695a2fec62b89abdafe4717537c1d0/cadquery_simpleviewer-0.2.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/78/2d/7fa73dfa841b5ac06c7b8855cfc18622132e365f5b81d02230333ff26e9e/cffi-2.0.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/7f/9c/34f6962f9b9e9c71f6e5ed806e0d0ff03c9d1b0b2340088a0cf4bce09b18/flask-3.1.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d8/98/107728ce3f430b5481eb426ccc5e1f7c8ab0bd01eaf231c62a8d528ff721/flask_sock-0.7.0-py3-none-any.whl
@@ -597,7 +597,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/72/76/20fa66124dbe6be5cafeb312ece67de6b61dd91a0247d1ea13db4ebb33c2/cachetools-5.5.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/fc/96/e0e863c85d4a467302d064faf0a90c688a8a415f176b698b47b57232bed1/cadquery-2.5.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/4d/da/52d0d0b148a015ded47b4f51cd0d5dba43f71bdc94f2050e9b8209d30786/cadquery_ocp-7.7.2-cp312-cp312-macosx_10_9_x86_64.whl
-      - pypi: https://files.pythonhosted.org/packages/4d/67/57be46d0e8b905a2f0e2fa970803dd96d1fbe7edb846e23a2c4d2c3c5f75/cadquery_simpleviewer-0.2.2-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/40/15/313cc73323e8ce31ce1e8a490d3fe6695a2fec62b89abdafe4717537c1d0/cadquery_simpleviewer-0.2.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/65/c8/689d085447b1966f42bdb8aa4fbebef49a09697dbee32ab02a865c17ac1b/casadi-3.7.2-cp312-none-macosx_10_13_x86_64.macosx_10_13_intel.whl
       - pypi: https://files.pythonhosted.org/packages/ea/47/4f61023ea636104d4f16ab488e268b93008c3d0bb76893b1b31db1f96802/cffi-2.0.0-cp312-cp312-macosx_10_13_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/7f/9c/34f6962f9b9e9c71f6e5ed806e0d0ff03c9d1b0b2340088a0cf4bce09b18/flask-3.1.3-py3-none-any.whl
@@ -793,7 +793,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/72/76/20fa66124dbe6be5cafeb312ece67de6b61dd91a0247d1ea13db4ebb33c2/cachetools-5.5.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/fc/96/e0e863c85d4a467302d064faf0a90c688a8a415f176b698b47b57232bed1/cadquery-2.5.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/9b/15/f738b679609071932395138925eb97358c36eebf6433ac2596e9b7f7a2cf/cadquery_ocp-7.7.2-cp312-cp312-macosx_11_0_arm64.whl
-      - pypi: https://files.pythonhosted.org/packages/4d/67/57be46d0e8b905a2f0e2fa970803dd96d1fbe7edb846e23a2c4d2c3c5f75/cadquery_simpleviewer-0.2.2-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/40/15/313cc73323e8ce31ce1e8a490d3fe6695a2fec62b89abdafe4717537c1d0/cadquery_simpleviewer-0.2.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/1e/c0/3c4704394a6fd4dfb2123a4fd71ba64a001f340670a3eba45be7a19ac736/casadi-3.7.2-cp312-none-macosx_11_0_arm64.whl
       - pypi: https://files.pythonhosted.org/packages/df/a2/781b623f57358e360d62cdd7a8c681f074a71d445418a776eef0aadb4ab4/cffi-2.0.0-cp312-cp312-macosx_11_0_arm64.whl
       - pypi: https://files.pythonhosted.org/packages/7f/9c/34f6962f9b9e9c71f6e5ed806e0d0ff03c9d1b0b2340088a0cf4bce09b18/flask-3.1.3-py3-none-any.whl
@@ -991,7 +991,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/72/76/20fa66124dbe6be5cafeb312ece67de6b61dd91a0247d1ea13db4ebb33c2/cachetools-5.5.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/fc/96/e0e863c85d4a467302d064faf0a90c688a8a415f176b698b47b57232bed1/cadquery-2.5.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/5f/20/0525739dbeb8bac7738efcff2a700ac55256b52bc331fb2cd8d9f1201635/cadquery_ocp-7.7.2-cp312-cp312-win_amd64.whl
-      - pypi: https://files.pythonhosted.org/packages/4d/67/57be46d0e8b905a2f0e2fa970803dd96d1fbe7edb846e23a2c4d2c3c5f75/cadquery_simpleviewer-0.2.2-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/40/15/313cc73323e8ce31ce1e8a490d3fe6695a2fec62b89abdafe4717537c1d0/cadquery_simpleviewer-0.2.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/3e/b9/5b984124f539656efdf079f3d8f09d73667808ec8d0546e6bce6dc60ade6/casadi-3.7.2-cp312-none-win_amd64.whl
       - pypi: https://files.pythonhosted.org/packages/f8/ed/13bd4418627013bec4ed6e54283b1959cf6db888048c7cf4b4c3b5b36002/cffi-2.0.0-cp312-cp312-win_amd64.whl
       - pypi: https://files.pythonhosted.org/packages/7f/9c/34f6962f9b9e9c71f6e5ed806e0d0ff03c9d1b0b2340088a0cf4bce09b18/flask-3.1.3-py3-none-any.whl
@@ -1734,10 +1734,10 @@ packages:
   name: cadquery-ocp
   version: 7.7.2
   sha256: 51ffbcd6d356d4f0c2e5f9e1581226121cd730fe4521eabac05e9d71e6a43f6f
-- pypi: https://files.pythonhosted.org/packages/4d/67/57be46d0e8b905a2f0e2fa970803dd96d1fbe7edb846e23a2c4d2c3c5f75/cadquery_simpleviewer-0.2.2-py3-none-any.whl
+- pypi: https://files.pythonhosted.org/packages/40/15/313cc73323e8ce31ce1e8a490d3fe6695a2fec62b89abdafe4717537c1d0/cadquery_simpleviewer-0.2.3-py3-none-any.whl
   name: cadquery-simpleviewer
-  version: 0.2.2
-  sha256: 3959a9da39f118d0c194708ee9d3ac87bd23ecaad000cb0a64b5a4d127a0b5ee
+  version: 0.2.3
+  sha256: 8420eb52be2e3476613ed079d80744468a7980144fe15a5dc43b5428fcbf1f2e
   requires_dist:
   - plotly>=5.0.0
   - cadquery>=2.3.0 ; extra == 'cadquery'
