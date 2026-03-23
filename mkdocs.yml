@@ -40,6 +40,8 @@ nav:
   - Google Colab: 
     - intro: ./tuto_colab/cadquery_basic_gc.ipynb
     - primitivas: ./tuto_colab/cadquery_primitives_gc.ipynb
+    - treliças: ./tuto_colab/cadquery_trusses_gc.ipynb
+    - modelagem: ./tuto_colab/2d_to_3d.ipynb
   - Vscode:
     - intro: ./tuto_vscode/cadquery_basic_vscode.ipynb
     - primitivas: ./tuto_vscode/cadquery_primitives_vscode.ipynb
