@@ -43,7 +43,7 @@ nav:
     - treliças: ./tuto_colab/cadquery_trusses_gc.ipynb
     - Modelagem: ./tuto_colab/2d_to_3d.ipynb
     - Exercício multi pav: ./tuto_colab/cadquery_multiplos_pav.ipynb
-    - Exercício multi pav perfil: ./tuto_colab/cadquery_multiplos_pav.ipynb
+    - Exercício multi pav perfil: ./tuto_colab/cadquery_multiplos_pav_perfil.ipynb
 
   - Vscode:
     - intro: ./tuto_vscode/cadquery_basic_vscode.ipynb
