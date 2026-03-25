@@ -2,37 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://255ribeiro.github.io/cadquery_basics/index.html</loc>
-         <lastmod>2026-03-23</lastmod>
+         <lastmod>2026-03-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://255ribeiro.github.io/cadquery_basics/down_files/down_files.html</loc>
+         <lastmod>2026-03-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/cadquery_basics/tuto_colab/2d_to_3d.html</loc>
-         <lastmod>2026-03-23</lastmod>
+         <lastmod>2026-03-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/cadquery_basics/tuto_colab/cadquery_basic_gc.html</loc>
-         <lastmod>2026-03-23</lastmod>
+         <lastmod>2026-03-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://255ribeiro.github.io/cadquery_basics/tuto_colab/cadquery_multiplos_pav.html</loc>
+         <lastmod>2026-03-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://255ribeiro.github.io/cadquery_basics/tuto_colab/cadquery_multiplos_pav_perfil.html</loc>
+         <lastmod>2026-03-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/cadquery_basics/tuto_colab/cadquery_primitives_gc.html</loc>
-         <lastmod>2026-03-23</lastmod>
+         <lastmod>2026-03-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/cadquery_basics/tuto_colab/cadquery_trusses_gc.html</loc>
-         <lastmod>2026-03-23</lastmod>
+         <lastmod>2026-03-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/cadquery_basics/tuto_vscode/cadquery_basic_vscode.html</loc>
-         <lastmod>2026-03-23</lastmod>
+         <lastmod>2026-03-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/cadquery_basics/tuto_vscode/cadquery_primitives_vscode.html</loc>
-         <lastmod>2026-03-23</lastmod>
+         <lastmod>2026-03-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
