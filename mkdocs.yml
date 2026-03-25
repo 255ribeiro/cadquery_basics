@@ -42,9 +42,14 @@ nav:
     - primitivas: ./tuto_colab/cadquery_primitives_gc.ipynb
     - treliças: ./tuto_colab/cadquery_trusses_gc.ipynb
     - modelagem: ./tuto_colab/2d_to_3d.ipynb
+    - Exercício multi pav: ./tuto_colab/cadquery_multiplos_pav.ipynb
+    - Exercício multi pav perfil: ./tuto_colab/cadquery_multiplos_pav.ipynb
+
   - Vscode:
     - intro: ./tuto_vscode/cadquery_basic_vscode.ipynb
     - primitivas: ./tuto_vscode/cadquery_primitives_vscode.ipynb
+
+  - Downloads: ./down_files/down_files.md
 
 markdown_extensions:
   - admonition
