@@ -41,7 +41,7 @@ nav:
     - intro: ./tuto_colab/cadquery_basic_gc.ipynb
     - primitivas: ./tuto_colab/cadquery_primitives_gc.ipynb
     - treliças: ./tuto_colab/cadquery_trusses_gc.ipynb
-    - modelagem: ./tuto_colab/2d_to_3d.ipynb
+    - Modelagem: ./tuto_colab/2d_to_3d.ipynb
     - Exercício multi pav: ./tuto_colab/cadquery_multiplos_pav.ipynb
     - Exercício multi pav perfil: ./tuto_colab/cadquery_multiplos_pav.ipynb
 
