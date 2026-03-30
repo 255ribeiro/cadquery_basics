@@ -63,23 +63,62 @@ A obra fundante é o *Brouillon project d'une atteinte aux événements des renc
 
 O destino inicial da obra de Desargues é um dos episódios mais curiosos da história da matemática. Apenas 50 cópias do *Brouillon project* foram impressas. A obra era notoriamente difícil: Desargues introduziu mais de 70 novos termos, a maioria baseada em referências botânicas obscuras — dos quais apenas *involução* sobreviveu ao uso corrente.
 
-A influência de Desargues sobre [Blaise Pascal](https://en.wikipedia.org/wiki/Blaise_Pascal), no entanto, é a evidência mais eloquente do peso intelectual da obra. Conforme o [MacTutor](https://mathshistory.st-andrews.ac.uk/Biographies/Pascal/), Pascal passou a admirar o trabalho de Desargues antes de completar 15 anos. A consequência direta é documentada pela [Encyclopedia.com](https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/jean-victor-poncelet): seguindo o pensamento de Desargues, o Pascal de 16 anos produziu, como meio de prova, um pequeno tratado sobre o que chamou de **Hexagrama Místico** — seu primeiro trabalho matemático sério, conhecido hoje como o **Teorema de Pascal**. Essa obra de 1640, portanto, é filha direta da geometria projetiva de Desargues.
+A influência de Desargues sobre [Blaise Pascal](https://en.wikipedia.org/wiki/Blaise_Pascal) é a evidência mais eloquente do peso intelectual da obra — e está registrada nas próprias palavras de Pascal. Em texto citado pelo [MacTutor](https://mathshistory.st-andrews.ac.uk/Biographies/Desargues/), Pascal escreve sobre Desargues:
 
-Paradoxalmente, foi a própria genialidade de Descartes que enterrou o trabalho de Desargues: a ascensão da geometria analítica desviou os matemáticos para métodos algébricos, e a abordagem puramente geométrica de Desargues pareceu obsoleta. A geometria projetiva caiu em esquecimento por quase dois séculos — apesar de ter produzido um dos teoremas mais elegantes do século XVII.
+> *"Demonstraremos esta propriedade cujo inventor original é M. Desargues de Lyon, que é uma das grandes mentes de nosso tempo [...] devo o pouco que encontrei sobre este assunto aos seus escritos, e tentei imitar o quanto me foi possível o seu método."*
+
+Conforme o [MacTutor](https://mathshistory.st-andrews.ac.uk/Biographies/Pascal/), Pascal passou a admirar o trabalho de Desargues antes de completar 15 anos. A consequência direta é documentada pela [Encyclopedia.com](https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/jean-victor-poncelet): **seguindo o pensamento de Desargues**, o Pascal de 16 anos produziu um pequeno tratado sobre o que chamou de **Hexagrama Místico** — seu primeiro trabalho matemático sério, conhecido hoje como o **Teorema de Pascal** (1640). Essa obra é filha direta da geometria projetiva de Desargues — e as duas juntas representam os dois documentos fundadores da disciplina, produzidos com um ano de diferença.
+
+Paradoxalmente, foi a própria genialidade de Descartes que enterrou ambos: a ascensão da geometria analítica desviou os matemáticos para métodos algébricos, e a abordagem puramente geométrica de Desargues pareceu obsoleta. A geometria projetiva caiu em esquecimento por quase dois séculos.
+
+### A ponte: Gaspard Monge e a École Polytechnique
+
+O elo que conecta Desargues ao século XIX não é uma leitura direta — é uma instituição. [Gaspard Monge](https://en.wikipedia.org/wiki/Gaspard_Monge), fundador da geometria descritiva, foi também um dos criadores e o principal professor de matemática da [École Polytechnique](https://en.wikipedia.org/wiki/Polytechnique), fundada em 1794. Conforme o [MacTutor](https://mathshistory.st-andrews.ac.uk/Biographies/Poncelet/), Monge havia escrito alguns trabalhos menores sobre geometria projetiva — mantendo viva, mesmo que marginalmente, a tradição que vinha de Desargues.
+
+É nesse ambiente intelectual que a geometria descritiva e os germes da projetiva coexistiam. O [MacTutor](https://mathshistory.st-andrews.ac.uk/Biographies/Desargues/) documenta com precisão o mecanismo: **quando a geometria projetiva foi reinventada pelos alunos de Monge, o ponto de partida foi a geometria descritiva** — técnica que tem muito em comum com perspectiva. A descritiva foi, portanto, o veículo involuntário pelo qual ideias projetivas sobreviveram ao eclipse.
 
 ### Redescobrimento: Jean-Victor Poncelet (1788–1867)
 
-[Jean-Victor Poncelet](https://en.wikipedia.org/wiki/Jean-Victor_Poncelet) nasceu em 1788 em Metz, França, filho ilegítimo de um rico proprietário de terras. Conforme o [MacTutor](https://mathshistory.st-andrews.ac.uk/Biographies/Poncelet/), foi criado com afeto por uma família adotiva até os 15 anos, quando retornou a Metz. Em 1807 ingressou na [École Polytechnique](https://en.wikipedia.org/wiki/Polytechnique), onde teve como professores diretos Gaspard Monge, Lazare Carnot e Charles Brianchon — a nata da matemática francesa da época. Formou-se em 1810 e seguiu carreira militar como engenheiro.
+[Jean-Victor Poncelet](https://en.wikipedia.org/wiki/Jean-Victor_Poncelet) nasceu em 1788 em Metz, França, filho ilegítimo de um rico proprietário de terras. Conforme o [MacTutor](https://mathshistory.st-andrews.ac.uk/Biographies/Poncelet/), foi criado com afeto por uma família adotiva até os 15 anos, quando retornou a Metz. Em 1807 ingressou na École Polytechnique, onde teve como **professores diretos Gaspard Monge, Lazare Carnot e Charles Brianchon** — a nata da matemática francesa da época. Formou-se em 1810 e seguiu carreira militar como engenheiro.
 
 O episódio que definiria sua contribuição à matemática veio em 1812. Como tenente de engenheiros na campanha russa de Napoleão, Poncelet participou ativamente dos combates — segundo o [MacTutor](https://mathshistory.st-andrews.ac.uk/Biographies/Poncelet/), chegou a construir pontes sobre o rio Dnieper sob fogo inimigo. Após a derrota francesa, foi dado como morto na batalha de Krasnoi e capturado pelos russos. Interrogado pelo General Miloradovich, não revelou informações. Foi confinado como prisioneiro de guerra em Saratov, às margens do Volga.
 
-Foi lá, entre 1813 e 1814, sem livros, reconstruindo a geometria da memória dos ensinamentos de Monge, que Poncelet desenvolveu as bases da geometria projetiva moderna. Conforme o [SciHi Blog](http://scihi.org/jean-victor-poncelet/), os cadernos que produziu nesse período — os *Cahiers de Saratov* — foram a semente do que publicaria oito anos depois. Libertado após o Tratado de Paris em 1814, retornou à França e em 1822 publicou o *Traité des propriétés projectives des figures* — considerado pela [Springer](https://link.springer.com/chapter/10.1007/978-3-031-72585-2_8) o marco do nascimento da geometria projetiva como disciplina autônoma.
+Foi lá, entre 1813 e 1814, sem livros, que Poncelet reconstruiu a geometria a partir da memória dos ensinamentos de Monge. Conforme o [MacTutor](https://mathshistory.st-andrews.ac.uk/Biographies/Poncelet/), esquecendo os detalhes do que havia aprendido com **Monge, Carnot e Brianchon**, foi redescobrir por conta própria as propriedades projetivas das cônicas — desenvolvendo, sem saber, o que Desargues e Pascal haviam iniciado 170 anos antes. Os cadernos desse período — os *Cahiers de Saratov* — foram a semente do que publicaria oito anos depois. Libertado após o Tratado de Paris em 1814, retornou à França e em 1822 publicou o *Traité des propriétés projectives des figures* — considerado pela [Springer](https://link.springer.com/chapter/10.1007/978-3-031-72585-2_8) o marco do nascimento da geometria projetiva como disciplina autônoma.
+
+A relação entre Poncelet e Desargues é portanto **estrutural, não bibliográfica**: conforme a [Britannica](https://www.britannica.com/biography/Girard-Desargues), o Teorema de Desargues *motivou* o desenvolvimento da geometria projetiva no primeiro quarto do século XIX por Poncelet. Após Poncelet descobrir que o Teorema de Desargues podia ser formulado de forma mais simples no espaço projetivo, outros teoremas se seguiram nesse framework — mas Poncelet chegou a esses resultados por conta própria, reconhecendo a precedência de Desargues *depois* de ter redescoberto o caminho.
 
 O *Traité* carregava dois princípios novos que ampliaram decisivamente o escopo da geometria projetiva: o **princípio da dualidade** (pontos e retas são intercambiáveis em qualquer teorema verdadeiro) e o **princípio da continuidade** (propriedades válidas para configurações reais estendem-se a configurações imaginárias). Conforme a [Britannica](https://www.britannica.com/biography/Jean-Victor-Poncelet), seu desenvolvimento das linhas polares associadas a seções cônicas levou ao princípio de dualidade e a uma disputa de prioridade com o matemático alemão Julius Plücker.
 
-A recepção inicial foi fria. Conforme a [Encyclopedia.com](https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/jean-victor-poncelet), os colegas de Poncelet foram extremamente relutantes em aceitar suas ideias — foram matemáticos alemães, entre eles Karl von Staudt, Felix Klein e Georg Cantor, que reconheceram e desenvolveram o trabalho. Decepcionado, Poncelet acabou retornando à engenharia aplicada, onde propôs o design da primeira turbina de fluxo interno (1826) e tornou-se professor de mecânica. Em 1848 foi nomeado Comandante Geral da École Polytechnique — a mesma escola onde havia sido aluno de Monge. Morreu em Paris em 1867, segundo a [Encyclopedia.com](https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/jean-victor-poncelet), sem o reconhecimento que merecia por suas contribuições à geometria.
+A recepção inicial foi fria. Conforme a [Encyclopedia.com](https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/jean-victor-poncelet), os colegas de Poncelet foram extremamente relutantes em aceitar suas ideias — foram matemáticos alemães, entre eles Karl von Staudt, Felix Klein e Georg Cantor, que reconheceram e desenvolveram o trabalho. Decepcionado, Poncelet acabou retornando à engenharia aplicada, onde propôs o design da primeira turbina de fluxo interno (1826) e tornou-se professor de mecânica. Em 1848 foi nomeado Comandante Geral da École Polytechnique — a mesma escola onde havia sido aluno de Monge. Morreu em Paris em 1867, sem o reconhecimento que merecia por suas contribuições à geometria.
 
-O [MacTutor](https://mathshistory.st-andrews.ac.uk/Biographies/Desargues/) aponta ainda o elo entre as duas disciplinas: **quando a geometria projetiva foi reinventada pelos alunos de Monge, o ponto de partida foi a geometria descritiva** — técnica que tem muito em comum com perspectiva. A linhagem intelectual é direta: Desargues → Pascal → esquecimento → Monge → Poncelet → geometria projetiva moderna.
+### Linhagem intelectual
+
+```
+Girard Desargues (1639)
+Arquiteto e engenheiro — funda a geometria projetiva
+    │
+    │ influência direta, citação explícita
+    ▼
+Blaise Pascal (1640)
+Teorema de Pascal (Hexagrama Místico) — primeiro grande resultado da projetiva
+    │
+    │ eclipse ~180 anos (ascensão da geometria analítica de Descartes)
+    ▼
+Gaspard Monge (séc. XVIII–XIX)
+Cria a geometria descritiva; escreve trabalhos menores sobre projetiva;
+funda a École Polytechnique — mantém viva a tradição geométrica
+    │
+    │ professor direto
+    ▼
+Jean-Victor Poncelet (1822)
+Aluno de Monge — reconstrói a projetiva em cativeiro na Rússia;
+publica o Traité; reconhece a posteriori a precedência de Desargues
+    │
+    │ reconhecimento e desenvolvimento pelos alemães
+    ▼
+Karl von Staudt / Felix Klein / Georg Cantor (séc. XIX)
+Geometria projetiva moderna — base da computação gráfica, visão computacional e criptografia
+```
 
 ---
 
