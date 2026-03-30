@@ -1531,17 +1531,17 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="instalacao-dos-pacotes">Instalação dos pacotes<a class="anchor-link" href="#instalacao-dos-pacotes">¶</a></h4>
+<h3 id="instalacao-dos-pacotes">Instalação dos pacotes<a class="anchor-link" href="#instalacao-dos-pacotes">¶</a></h3>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
 <clipboard-copy for="cell-1">
@@ -1573,19 +1573,6 @@ else:
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Not running in Colab, skipping package installation.
-</pre>
-</div>
-</div>
-</div>
-</div>
 </div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
@@ -1604,7 +1591,7 @@ else:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
 <clipboard-copy for="cell-2">
@@ -1662,8 +1649,8 @@ import numpy as np</div>
 <div class="highlight-ipynb hl-python"><pre><span></span><span class="c1"># ── Parâmetros ───────────────────────────────────────────────────────────────</span>
 <span class="n">cota_inicial</span>  <span class="o">=</span> <span class="mi">0</span>
 <span class="n">pap</span>           <span class="o">=</span> <span class="mi">3</span>
-<span class="n">n_pav</span>         <span class="o">=</span> <span class="mi">30</span>
-<span class="n">rot_inc</span>       <span class="o">=</span> <span class="mf">2.5</span>
+<span class="n">n_pav</span>         <span class="o">=</span> <span class="mi">5</span>
+<span class="n">rot_inc</span>       <span class="o">=</span> <span class="mi">5</span>
 <span class="n">smooth_factor</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">/</span> <span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span>
 
 
@@ -1684,6 +1671,7 @@ import numpy as np</div>
         <span class="o">.</span><span class="n">rotate</span><span class="p">((</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span> <span class="n">i</span> <span class="o">*</span> <span class="n">rot_inc</span><span class="p">)</span>   <span class="c1"># rotação no wire</span>
         <span class="o">.</span><span class="n">translate</span><span class="p">((</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">cota_atual</span><span class="p">))</span>                 <span class="c1"># posiciona na cota</span>
     <span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">'wire </span><span class="si">{</span><span class="n">i</span><span class="si">}</span><span class="s1"> added'</span><span class="p">)</span>
 
     <span class="n">wp</span> <span class="o">=</span> <span class="n">wp</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">wire</span><span class="p">)</span><span class="o">.</span><span class="n">toPending</span><span class="p">()</span>
 
@@ -1695,8 +1683,8 @@ import numpy as np</div>
 # ── Parâmetros ───────────────────────────────────────────────────────────────
 cota_inicial  = 0
 pap           = 3
-n_pav         = 30
-rot_inc       = 2.5
+n_pav         = 5
+rot_inc       = 5
 smooth_factor = 1 / (np.pi * 2)
 
 
@@ -1717,6 +1705,7 @@ for i in range(n_pav + 1):
         .rotate((0, 0, 0), (0, 0, 1), i * rot_inc)   # rotação no wire
         .translate((0, 0, cota_atual))                 # posiciona na cota
     )
+    print(f'wire {i} added')
 
     wp = wp.add(wire).toPending()
 
@@ -1750,8 +1739,8 @@ show(result_rect)
 <div class="highlight-ipynb hl-python"><pre><span></span><span class="c1"># ── Parâmetros ───────────────────────────────────────────────────────────────</span>
 <span class="n">cota_inicial</span>  <span class="o">=</span> <span class="mi">0</span>
 <span class="n">pap</span>           <span class="o">=</span> <span class="mi">3</span>
-<span class="n">n_pav</span>         <span class="o">=</span> <span class="mi">30</span>
-<span class="n">rot_inc</span>       <span class="o">=</span> <span class="mf">2.5</span>
+<span class="n">n_pav</span>         <span class="o">=</span> <span class="mi">5</span>
+<span class="n">rot_inc</span>       <span class="o">=</span> <span class="mi">10</span>
 <span class="n">smooth_factor</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">/</span> <span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span>
 
 <span class="c1"># ══════════════════════════════════════════════════════════════════════════════</span>
@@ -1784,6 +1773,7 @@ show(result_rect)
         <span class="o">.</span><span class="n">rotate</span><span class="p">((</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span> <span class="n">i</span> <span class="o">*</span> <span class="n">rot_inc</span><span class="p">)</span>   <span class="c1"># rotação no wire</span>
         <span class="o">.</span><span class="n">translate</span><span class="p">((</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">cota_atual</span><span class="p">))</span>                 <span class="c1"># posiciona na cota</span>
     <span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">'wire </span><span class="si">{</span><span class="n">i</span><span class="si">}</span><span class="s1"> added'</span><span class="p">)</span>
 
     <span class="n">wp</span> <span class="o">=</span> <span class="n">wp</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">wire</span><span class="p">)</span><span class="o">.</span><span class="n">toPending</span><span class="p">()</span>
 
@@ -1793,8 +1783,8 @@ show(result_rect)
 <div class="clipboard-copy-txt" id="cell-4"># ── Parâmetros ───────────────────────────────────────────────────────────────
 cota_inicial  = 0
 pap           = 3
-n_pav         = 30
-rot_inc       = 2.5
+n_pav         = 5
+rot_inc       = 10
 smooth_factor = 1 / (np.pi * 2)
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -1827,6 +1817,7 @@ for i in range(n_pav + 1):
         .rotate((0, 0, 0), (0, 0, 1), i * rot_inc)   # rotação no wire
         .translate((0, 0, cota_atual))                 # posiciona na cota
     )
+    print(f'wire {i} added')
 
     wp = wp.add(wire).toPending()
 
