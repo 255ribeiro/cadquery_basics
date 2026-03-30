@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://255ribeiro.github.io/cadquery_basics/tuto_colab/cadquery_primitives_gc.html">
+        <link rel="canonical" href="https://255ribeiro.github.io/cadquery_basics/tuto_colab/multi_pav_loft.html">
       
       
-        <link rel="prev" href="cadquery_basic_gc.html">
+        <link rel="prev" href="multi_pav_cq_ramdom_disp_resolvido.html">
       
       
-        <link rel="next" href="cadquery_trusses_gc.html">
+        <link rel="next" href="../tuto_vscode/cadquery_basic_vscode.html">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Sólidos Primitivos e Operações Booleanas - Python CadQuery para Arquitetos e Engenheiros</title>
+        <title>Exercício resolvido: Pavimentos com Loft - Python CadQuery para Arquitetos e Engenheiros</title>
       
     
     
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#solidos-primitivos-e-operacoes-booleanas" class="md-skip">
+        <a href="#exercicio-resolvido-pavimentos-com-loft" class="md-skip">
           Skip to content
         </a>
       
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Sólidos Primitivos e Operações Booleanas
+              Exercício resolvido: Pavimentos com Loft
             
           </span>
         </div>
@@ -295,30 +295,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Sólidos Primitivos e Operações Booleanas
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="cadquery_primitives_gc.html" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="cadquery_primitives_gc.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -327,119 +307,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#cadquery-para-arquitetos-e-engenheiros" class="md-nav__link">
-    <span class="md-ellipsis">
-      CadQuery para Arquitetos e Engenheiros
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="CadQuery para Arquitetos e Engenheiros">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#versao-google-colab" class="md-nav__link">
-    <span class="md-ellipsis">
-      Versão Google Colab
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#instalacao" class="md-nav__link">
-    <span class="md-ellipsis">
-      Instalação
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#importacoes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Importações
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#solidos-primitivos" class="md-nav__link">
-    <span class="md-ellipsis">
-      Sólidos Primitivos
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Sólidos Primitivos">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#caixa-box" class="md-nav__link">
-    <span class="md-ellipsis">
-      Caixa — .box()
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#cilindro-cylinder" class="md-nav__link">
-    <span class="md-ellipsis">
-      Cilindro — .cylinder()
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#esfera-sphere" class="md-nav__link">
-    <span class="md-ellipsis">
-      Esfera — .sphere()
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#cone-e-tronco-de-cone-brepprimapi_makecone" class="md-nav__link">
-    <span class="md-ellipsis">
-      Cone e Tronco de Cone — BRepPrimAPI_MakeCone
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -575,10 +442,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="multi_pav_loft.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Exercício resolvido: Pavimentos com Loft
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="multi_pav_loft.html" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -587,6 +474,68 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#fernando-ferraz-rbeiro" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fernando Ferraz Rbeiro
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fernando Ferraz Rbeiro">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#instalacao-dos-pacotes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instalação dos pacotes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#importacao-dos-pacotes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Importação dos pacotes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#criacao-de-caixas-no-cadquery" class="md-nav__link">
+    <span class="md-ellipsis">
+      criação de caixas no cadquery
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -821,7 +770,7 @@
               <article class="md-content__inner md-typeset">
                 
 
-    <a href="/cadquery_basics/tuto_colab/cadquery_primitives_gc.ipynb" title="Download Notebook" class="md-content__button md-icon">
+    <a href="/cadquery_basics/tuto_colab/multi_pav_loft.ipynb" title="Download Notebook" class="md-content__button md-icon">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7Z"/></svg>
     </a>
 
@@ -1554,47 +1503,45 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 </style>
 <!-- End of mermaid configuration --><div class="jupyter-wrapper">
 <div class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=add6dd9f">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><a href="https://colab.research.google.com/github/255ribeiro/cadquery_basics/blob/master/docs/tuto_colab/cadquery_primitives_gc.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg"/></a></p>
+<p><a href="https://colab.research.google.com/github/255ribeiro/cadquery_basics/blob/master/docs/tuto_colab/multi_pav_loft_.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg"/></a></p>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ab6041b6">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="solidos-primitivos-e-operacoes-booleanas">Sólidos Primitivos e Operações Booleanas<a class="anchor-link" href="#solidos-primitivos-e-operacoes-booleanas">¶</a></h1><h2 id="cadquery-para-arquitetos-e-engenheiros">CadQuery para Arquitetos e Engenheiros<a class="anchor-link" href="#cadquery-para-arquitetos-e-engenheiros">¶</a></h2><h3 id="versao-google-colab">Versão Google Colab<a class="anchor-link" href="#versao-google-colab">¶</a></h3><hr/>
-<p>Neste notebook vamos explorar as <strong>formas primitivas</strong> do CadQuery e as <strong>operações de modelagem</strong> que permitem criar geometrias arquitetônicas mais complexas.</p>
-<hr/>
+<h1 id="exercicio-resolvido-pavimentos-com-loft">Exercício resolvido: Pavimentos com Loft<a class="anchor-link" href="#exercicio-resolvido-pavimentos-com-loft">¶</a></h1><h2 id="fernando-ferraz-rbeiro">Fernando Ferraz Rbeiro<a class="anchor-link" href="#fernando-ferraz-rbeiro">¶</a></h2>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ddb61087">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="instalacao">Instalação<a class="anchor-link" href="#instalacao">¶</a></h2>
+<h4 id="instalacao-dos-pacotes">Instalação dos pacotes<a class="anchor-link" href="#instalacao-dos-pacotes">¶</a></h4>
 </div>
 </div>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=0ef1faf8">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [68]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
 <clipboard-copy for="cell-1">
@@ -1641,23 +1588,23 @@ else:
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=fab2ecc9">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="importacoes">Importações<a class="anchor-link" href="#importacoes">¶</a></h2>
+<h3 id="importacao-dos-pacotes">Importação dos pacotes<a class="anchor-link" href="#importacao-dos-pacotes">¶</a></h3>
 </div>
 </div>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=6e08e03d">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [69]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
 <clipboard-copy for="cell-2">
@@ -1671,69 +1618,35 @@ else:
 </clipboard-copy>
 </div>
 <div class="highlight-ipynb hl-python"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">cadquery</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">cq</span>
-<span class="kn">from</span><span class="w"> </span><span class="nn">cadquery_simpleviewer</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">cadquery_simpleviewer.viewer</span><span class="w"> </span><span class="kn">import</span> <span class="n">show</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
 </pre></div>
 <div class="clipboard-copy-txt" id="cell-2">import cadquery as cq
-from cadquery_simpleviewer import show</div>
+from cadquery_simpleviewer.viewer import show
+import numpy as np</div>
 </div>
 </div>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=441e7dbe">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<hr/>
-<h2 id="solidos-primitivos">Sólidos Primitivos<a class="anchor-link" href="#solidos-primitivos">¶</a></h2><p>Os <strong>sólidos primitivos</strong> são formas geométricas básicas que o CadQuery consegue criar diretamente. São o ponto de partida para construções mais complexas.</p>
-<hr/>
-<h3 id="caixa-box">Caixa — <code>.box()</code><a class="anchor-link" href="#caixa-box">¶</a></h3><p>A caixa retangular é a primitiva mais usada em arquitetura. Representa qualquer volume ortogonal: paredes, lajes, pilares retangulares, blocos.</p>
-<div class="highlight"><pre><span></span><span class="o">.</span><span class="n">box</span><span class="p">(</span><span class="n">length</span><span class="p">,</span> <span class="n">width</span><span class="p">,</span> <span class="n">height</span><span class="p">)</span>
-</pre></div>
-<table>
-<thead>
-<tr>
-<th>Parâmetro</th>
-<th>Eixo</th>
-<th>Descrição</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>length</code></td>
-<td>X</td>
-<td>Comprimento</td>
-</tr>
-<tr>
-<td><code>width</code></td>
-<td>Y</td>
-<td>Largura</td>
-</tr>
-<tr>
-<td><code>height</code></td>
-<td>Z</td>
-<td>Altura</td>
-</tr>
-</tbody>
-</table>
-<p>Por padrão, a caixa é criada <strong>centrada na origem</strong> do Workplane. O parâmetro <code>centered</code> controla esse comportamento:</p>
-<ul>
-<li><code>centered=True</code> → centro geométrico na origem (padrão)</li>
-<li><code>centered=False</code> → canto inferior esquerdo na origem</li>
-</ul>
+<h3 id="criacao-de-caixas-no-cadquery">criação de caixas no cadquery<a class="anchor-link" href="#criacao-de-caixas-no-cadquery">¶</a></h3>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=1aa45160">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [70]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
 <clipboard-copy for="cell-3">
@@ -1746,89 +1659,82 @@ from cadquery_simpleviewer import show</div>
 </div>
 </clipboard-copy>
 </div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">pilar_centrado</span> <span class="o">=</span> <span class="n">cq</span><span class="o">.</span><span class="n">Workplane</span><span class="p">(</span><span class="s2">"XY"</span><span class="p">)</span><span class="o">.</span><span class="n">box</span><span class="p">(</span><span class="mf">0.4</span><span class="p">,</span> <span class="mf">0.4</span><span class="p">,</span> <span class="mf">3.0</span><span class="p">)</span>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="c1"># ── Parâmetros ───────────────────────────────────────────────────────────────</span>
+<span class="n">cota_inicial</span>  <span class="o">=</span> <span class="mi">0</span>
+<span class="n">pap</span>           <span class="o">=</span> <span class="mi">3</span>
+<span class="n">n_pav</span>         <span class="o">=</span> <span class="mi">30</span>
+<span class="n">rot_inc</span>       <span class="o">=</span> <span class="mf">2.5</span>
+<span class="n">smooth_factor</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">/</span> <span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span>
 
-<span class="n">pilar_canto</span> <span class="o">=</span> <span class="n">cq</span><span class="o">.</span><span class="n">Workplane</span><span class="p">(</span><span class="s2">"XY"</span><span class="p">)</span><span class="o">.</span><span class="n">box</span><span class="p">(</span><span class="mf">0.4</span><span class="p">,</span> <span class="mf">0.4</span><span class="p">,</span> <span class="mf">3.0</span><span class="p">,</span> <span class="n">centered</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
-<span class="n">pilar_canto</span> <span class="o">=</span> <span class="n">pilar_canto</span><span class="o">.</span><span class="n">translate</span><span class="p">((</span><span class="mf">2.0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span>
 
-<span class="n">show</span><span class="p">(</span>
-    <span class="p">[</span><span class="n">pilar_centrado</span><span class="p">,</span> <span class="n">pilar_canto</span><span class="p">],</span>
-    <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s2">"Centrado"</span><span class="p">,</span> <span class="s2">"Canto na origem"</span><span class="p">],</span>
-    <span class="n">visible_axes</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
-    <span class="n">z</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
-    <span class="n">plane_size</span><span class="o">=</span><span class="mi">6</span>
-<span class="p">)</span>
+<span class="c1"># ══════════════════════════════════════════════════════════════════════════════</span>
+<span class="c1"># VERSÃO 1 — rect com scale e rotação</span>
+<span class="c1"># ══════════════════════════════════════════════════════════════════════════════</span>
+<span class="n">wp</span> <span class="o">=</span> <span class="n">cq</span><span class="o">.</span><span class="n">Workplane</span><span class="p">(</span><span class="s2">"XY"</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n_pav</span> <span class="o">+</span> <span class="mi">1</span><span class="p">):</span>
+    <span class="n">cota_atual</span>   <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="n">cota_inicial</span> <span class="o">+</span> <span class="n">pap</span> <span class="o">*</span> <span class="n">i</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+    <span class="n">scale_factor</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="o">*</span> <span class="n">smooth_factor</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="n">offset</span>       <span class="o">=</span> <span class="n">pap</span> <span class="k">if</span> <span class="n">i</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="k">else</span> <span class="mi">0</span>
+
+    <span class="n">wire</span> <span class="o">=</span> <span class="p">(</span>
+        <span class="n">cq</span><span class="o">.</span><span class="n">Workplane</span><span class="p">(</span><span class="s2">"XY"</span><span class="p">)</span>
+        <span class="o">.</span><span class="n">rect</span><span class="p">(</span><span class="mi">30</span> <span class="o">*</span> <span class="n">scale_factor</span><span class="p">,</span> <span class="mi">40</span> <span class="o">*</span> <span class="n">scale_factor</span><span class="p">)</span>
+        <span class="o">.</span><span class="n">wires</span><span class="p">()</span><span class="o">.</span><span class="n">val</span><span class="p">()</span>
+        <span class="o">.</span><span class="n">rotate</span><span class="p">((</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span> <span class="n">i</span> <span class="o">*</span> <span class="n">rot_inc</span><span class="p">)</span>   <span class="c1"># rotação no wire</span>
+        <span class="o">.</span><span class="n">translate</span><span class="p">((</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">cota_atual</span><span class="p">))</span>                 <span class="c1"># posiciona na cota</span>
+    <span class="p">)</span>
+
+    <span class="n">wp</span> <span class="o">=</span> <span class="n">wp</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">wire</span><span class="p">)</span><span class="o">.</span><span class="n">toPending</span><span class="p">()</span>
+
+<span class="n">result_rect</span> <span class="o">=</span> <span class="n">wp</span><span class="o">.</span><span class="n">loft</span><span class="p">()</span>
+<span class="n">show</span><span class="p">(</span><span class="n">result_rect</span><span class="p">)</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-3">pilar_centrado = cq.Workplane("XY").box(0.4, 0.4, 3.0)
+<div class="clipboard-copy-txt" id="cell-3">
 
-pilar_canto = cq.Workplane("XY").box(0.4, 0.4, 3.0, centered=False)
-pilar_canto = pilar_canto.translate((2.0, 0, 0))
+# ── Parâmetros ───────────────────────────────────────────────────────────────
+cota_inicial  = 0
+pap           = 3
+n_pav         = 30
+rot_inc       = 2.5
+smooth_factor = 1 / (np.pi * 2)
 
-show(
-    [pilar_centrado, pilar_canto],
-    names=["Centrado", "Canto na origem"],
-    visible_axes=None,
-    z=0,
-    plane_size=6
-)</div>
+
+# ══════════════════════════════════════════════════════════════════════════════
+# VERSÃO 1 — rect com scale e rotação
+# ══════════════════════════════════════════════════════════════════════════════
+wp = cq.Workplane("XY")
+
+for i in range(n_pav + 1):
+    cota_atual   = round(cota_inicial + pap * i, 2)
+    scale_factor = np.abs(np.sin(i) * smooth_factor + 1)
+    offset       = pap if i &gt; 0 else 0
+
+    wire = (
+        cq.Workplane("XY")
+        .rect(30 * scale_factor, 40 * scale_factor)
+        .wires().val()
+        .rotate((0, 0, 0), (0, 0, 1), i * rot_inc)   # rotação no wire
+        .translate((0, 0, cota_atual))                 # posiciona na cota
+    )
+
+    wp = wp.add(wire).toPending()
+
+result_rect = wp.loft()
+show(result_rect)
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 </div>
 </div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a4ca2c9d">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<hr/>
-<h3 id="cilindro-cylinder">Cilindro — <code>.cylinder()</code><a class="anchor-link" href="#cilindro-cylinder">¶</a></h3><p>O cilindro representa pilares circulares, colunas, tanques, torres cilíndricas.</p>
-<div class="highlight"><pre><span></span><span class="o">.</span><span class="n">cylinder</span><span class="p">(</span><span class="n">height</span><span class="p">,</span> <span class="n">radius</span><span class="p">,</span> <span class="n">angle</span><span class="o">=</span><span class="mi">360</span><span class="p">)</span>
-</pre></div>
-<table>
-<thead>
-<tr>
-<th>Parâmetro</th>
-<th>Descrição</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>height</code></td>
-<td>Altura</td>
-</tr>
-<tr>
-<td><code>radius</code></td>
-<td>Raio da base</td>
-</tr>
-<tr>
-<td><code>angle</code></td>
-<td>Ângulo de abertura em graus — padrão <code>360</code> (cilindro completo)</td>
-</tr>
-</tbody>
-</table>
-<p>O parâmetro <code>angle</code> permite criar <strong>segmentos de cilindro</strong>, úteis para curvas parciais e elementos curvos.</p>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=2c3e82b5">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [71]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
 <clipboard-copy for="cell-4">
@@ -1841,1268 +1747,93 @@ show(
 </div>
 </clipboard-copy>
 </div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">coluna</span> <span class="o">=</span> <span class="n">cq</span><span class="o">.</span><span class="n">Workplane</span><span class="p">(</span><span class="s2">"XY"</span><span class="p">)</span><span class="o">.</span><span class="n">cylinder</span><span class="p">(</span><span class="mf">3.0</span><span class="p">,</span> <span class="mf">0.2</span><span class="p">)</span>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="c1"># ── Parâmetros ───────────────────────────────────────────────────────────────</span>
+<span class="n">cota_inicial</span>  <span class="o">=</span> <span class="mi">0</span>
+<span class="n">pap</span>           <span class="o">=</span> <span class="mi">3</span>
+<span class="n">n_pav</span>         <span class="o">=</span> <span class="mi">30</span>
+<span class="n">rot_inc</span>       <span class="o">=</span> <span class="mf">2.5</span>
+<span class="n">smooth_factor</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">/</span> <span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span>
 
-<span class="n">parede_curva</span> <span class="o">=</span> <span class="n">cq</span><span class="o">.</span><span class="n">Workplane</span><span class="p">(</span><span class="s2">"XY"</span><span class="p">)</span><span class="o">.</span><span class="n">cylinder</span><span class="p">(</span><span class="mf">2.8</span><span class="p">,</span> <span class="mf">1.5</span><span class="p">,</span> <span class="n">angle</span><span class="o">=</span><span class="mi">90</span><span class="p">)</span>
-<span class="n">parede_curva</span> <span class="o">=</span> <span class="n">parede_curva</span><span class="o">.</span><span class="n">translate</span><span class="p">((</span><span class="mf">4.0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span>
-
-<span class="n">parede_semi</span> <span class="o">=</span> <span class="n">cq</span><span class="o">.</span><span class="n">Workplane</span><span class="p">(</span><span class="s2">"XY"</span><span class="p">)</span><span class="o">.</span><span class="n">cylinder</span><span class="p">(</span><span class="mf">2.8</span><span class="p">,</span> <span class="mf">2.5</span><span class="p">,</span> <span class="n">angle</span><span class="o">=</span><span class="mi">180</span><span class="p">)</span>
-<span class="n">parede_semi</span> <span class="o">=</span> <span class="n">parede_semi</span><span class="o">.</span><span class="n">translate</span><span class="p">((</span><span class="mf">10.0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span>
-
-<span class="n">show</span><span class="p">(</span>
-    <span class="p">[</span><span class="n">coluna</span><span class="p">,</span> <span class="n">parede_curva</span><span class="p">,</span> <span class="n">parede_semi</span><span class="p">],</span>
-    <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s2">"Coluna"</span><span class="p">,</span> <span class="s2">"Parede curva 90°"</span><span class="p">,</span> <span class="s2">"Parede semicircular"</span><span class="p">],</span>
-    <span class="n">visible_axes</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
-    <span class="n">z</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
-    <span class="n">plane_size</span><span class="o">=</span><span class="mi">20</span>
-<span class="p">)</span>
-</pre></div>
-<div class="clipboard-copy-txt" id="cell-4">coluna = cq.Workplane("XY").cylinder(3.0, 0.2)
-
-parede_curva = cq.Workplane("XY").cylinder(2.8, 1.5, angle=90)
-parede_curva = parede_curva.translate((4.0, 0, 0))
-
-parede_semi = cq.Workplane("XY").cylinder(2.8, 2.5, angle=180)
-parede_semi = parede_semi.translate((10.0, 0, 0))
-
-show(
-    [coluna, parede_curva, parede_semi],
-    names=["Coluna", "Parede curva 90°", "Parede semicircular"],
-    visible_axes=None,
-    z=0,
-    plane_size=20
-)</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=70c38e27">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<hr/>
-<h3 id="esfera-sphere">Esfera — <code>.sphere()</code><a class="anchor-link" href="#esfera-sphere">¶</a></h3><p>A esfera é usada em cúpulas, elementos decorativos, volumes orgânicos e estudo de formas.</p>
-<div class="highlight"><pre><span></span><span class="o">.</span><span class="n">sphere</span><span class="p">(</span><span class="n">radius</span><span class="p">,</span> <span class="n">angle1</span><span class="o">=-</span><span class="mi">90</span><span class="p">,</span> <span class="n">angle2</span><span class="o">=</span><span class="mi">90</span><span class="p">,</span> <span class="n">angle3</span><span class="o">=</span><span class="mi">360</span><span class="p">)</span>
-</pre></div>
-<table>
-<thead>
-<tr>
-<th>Parâmetro</th>
-<th>Descrição</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>radius</code></td>
-<td>Raio</td>
-</tr>
-<tr>
-<td><code>angle1</code></td>
-<td>Ângulo inicial na vertical (latitude inferior) — padrão <code>-90°</code></td>
-</tr>
-<tr>
-<td><code>angle2</code></td>
-<td>Ângulo final na vertical (latitude superior) — padrão <code>90°</code></td>
-</tr>
-<tr>
-<td><code>angle3</code></td>
-<td>Ângulo de abertura horizontal — padrão <code>360°</code></td>
-</tr>
-</tbody>
-</table>
-<p>Controlando <code>angle1</code> e <code>angle2</code> é possível criar <strong>calotas esféricas</strong> — como cúpulas.</p>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=3bb7a262">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [72]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="CodeMirror cm-s-jupyter">
-<div class="zeroclipboard-container">
-<clipboard-copy for="cell-5">
-<div>
-<span class="notice" hidden="">Copied!</span>
-<svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
-<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z" fill="currentColor" fill-rule="evenodd"></path>
-<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z" fill="currentColor" fill-rule="evenodd"></path>
-</svg>
-</div>
-</clipboard-copy>
-</div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">esfera</span> <span class="o">=</span> <span class="n">cq</span><span class="o">.</span><span class="n">Workplane</span><span class="p">(</span><span class="s2">"XY"</span><span class="p">)</span><span class="o">.</span><span class="n">sphere</span><span class="p">(</span><span class="mf">2.0</span><span class="p">)</span>
-
-<span class="n">cupula</span> <span class="o">=</span> <span class="n">cq</span><span class="o">.</span><span class="n">Workplane</span><span class="p">(</span><span class="s2">"XY"</span><span class="p">)</span><span class="o">.</span><span class="n">sphere</span><span class="p">(</span><span class="mf">2.0</span><span class="p">,</span> <span class="n">angle1</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">angle2</span><span class="o">=</span><span class="mi">90</span><span class="p">)</span>
-<span class="n">cupula</span> <span class="o">=</span> <span class="n">cupula</span><span class="o">.</span><span class="n">translate</span><span class="p">((</span><span class="mf">6.0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span>
-
-<span class="n">cupula_rasa</span> <span class="o">=</span> <span class="n">cq</span><span class="o">.</span><span class="n">Workplane</span><span class="p">(</span><span class="s2">"XY"</span><span class="p">)</span><span class="o">.</span><span class="n">sphere</span><span class="p">(</span><span class="mf">2.0</span><span class="p">,</span> <span class="n">angle1</span><span class="o">=</span><span class="mi">60</span><span class="p">,</span> <span class="n">angle2</span><span class="o">=</span><span class="mi">90</span><span class="p">)</span>
-<span class="n">cupula_rasa</span> <span class="o">=</span> <span class="n">cupula_rasa</span><span class="o">.</span><span class="n">translate</span><span class="p">((</span><span class="mf">12.0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span>
-
-<span class="n">show</span><span class="p">(</span>
-    <span class="p">[</span><span class="n">esfera</span><span class="p">,</span> <span class="n">cupula</span><span class="p">,</span> <span class="n">cupula_rasa</span><span class="p">],</span>
-    <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s2">"Esfera completa"</span><span class="p">,</span> <span class="s2">"Cúpula"</span><span class="p">,</span> <span class="s2">"Cúpula rasa"</span><span class="p">],</span>
-    <span class="n">visible_axes</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
-    <span class="n">z</span><span class="o">=-</span><span class="mf">2.0</span><span class="p">,</span>
-    <span class="n">plane_size</span><span class="o">=</span><span class="mi">18</span>
-<span class="p">)</span>
-</pre></div>
-<div class="clipboard-copy-txt" id="cell-5">esfera = cq.Workplane("XY").sphere(2.0)
-
-cupula = cq.Workplane("XY").sphere(2.0, angle1=0, angle2=90)
-cupula = cupula.translate((6.0, 0, 0))
-
-cupula_rasa = cq.Workplane("XY").sphere(2.0, angle1=60, angle2=90)
-cupula_rasa = cupula_rasa.translate((12.0, 0, 0))
-
-show(
-    [esfera, cupula, cupula_rasa],
-    names=["Esfera completa", "Cúpula", "Cúpula rasa"],
-    visible_axes=None,
-    z=-2.0,
-    plane_size=18
-)</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=c960409c">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<hr/>
-<h3 id="cone-e-tronco-de-cone-brepprimapi_makecone">Cone e Tronco de Cone — <code>BRepPrimAPI_MakeCone</code><a class="anchor-link" href="#cone-e-tronco-de-cone-brepprimapi_makecone">¶</a></h3><p>O cone e o tronco de cone são criados diretamente via OCCT, da mesma forma que o toro:</p>
-<div class="highlight"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">OCP.BRepPrimAPI</span><span class="w"> </span><span class="kn">import</span> <span class="n">BRepPrimAPI_MakeCone</span>
-
-<span class="c1"># BRepPrimAPI_MakeCone(raio_base, raio_topo, altura)</span>
-<span class="c1"># raio_topo = 0  → cone pontiagudo</span>
-<span class="c1"># raio_topo &gt; 0  → tronco de cone</span>
-<span class="n">solido</span> <span class="o">=</span> <span class="n">cq</span><span class="o">.</span><span class="n">Workplane</span><span class="p">()</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">cq</span><span class="o">.</span><span class="n">Shape</span><span class="p">(</span><span class="n">BRepPrimAPI_MakeCone</span><span class="p">(</span><span class="n">r1</span><span class="p">,</span> <span class="n">r2</span><span class="p">,</span> <span class="n">h</span><span class="p">)</span><span class="o">.</span><span class="n">Shape</span><span class="p">()))</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=1bb92100">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [73]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="CodeMirror cm-s-jupyter">
-<div class="zeroclipboard-container">
-<clipboard-copy for="cell-6">
-<div>
-<span class="notice" hidden="">Copied!</span>
-<svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
-<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z" fill="currentColor" fill-rule="evenodd"></path>
-<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z" fill="currentColor" fill-rule="evenodd"></path>
-</svg>
-</div>
-</clipboard-copy>
-</div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">OCP.BRepPrimAPI</span><span class="w"> </span><span class="kn">import</span> <span class="n">BRepPrimAPI_MakeCone</span>
-
-<span class="c1"># --- Cone pontiagudo ---</span>
-<span class="n">telhado_conico</span> <span class="o">=</span> <span class="n">cq</span><span class="o">.</span><span class="n">Workplane</span><span class="p">()</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">cq</span><span class="o">.</span><span class="n">Shape</span><span class="p">(</span><span class="n">BRepPrimAPI_MakeCone</span><span class="p">(</span><span class="mf">2.5</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mf">2.0</span><span class="p">)</span><span class="o">.</span><span class="n">Shape</span><span class="p">()))</span>
-
-<span class="c1"># --- Tronco de cone — base maior em baixo ---</span>
-<span class="n">tronco</span> <span class="o">=</span> <span class="n">cq</span><span class="o">.</span><span class="n">Workplane</span><span class="p">()</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">cq</span><span class="o">.</span><span class="n">Shape</span><span class="p">(</span><span class="n">BRepPrimAPI_MakeCone</span><span class="p">(</span><span class="mf">3.0</span><span class="p">,</span> <span class="mf">1.5</span><span class="p">,</span> <span class="mf">3.0</span><span class="p">)</span><span class="o">.</span><span class="n">Shape</span><span class="p">()))</span>
-<span class="n">tronco</span> <span class="o">=</span> <span class="n">tronco</span><span class="o">.</span><span class="n">translate</span><span class="p">((</span><span class="mf">8.0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span>
-
-<span class="c1"># --- Tronco invertido — base menor em baixo ---</span>
-<span class="n">tronco_invertido</span> <span class="o">=</span> <span class="n">cq</span><span class="o">.</span><span class="n">Workplane</span><span class="p">()</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">cq</span><span class="o">.</span><span class="n">Shape</span><span class="p">(</span><span class="n">BRepPrimAPI_MakeCone</span><span class="p">(</span><span class="mf">1.0</span><span class="p">,</span> <span class="mf">3.0</span><span class="p">,</span> <span class="mf">2.0</span><span class="p">)</span><span class="o">.</span><span class="n">Shape</span><span class="p">()))</span>
-<span class="n">tronco_invertido</span> <span class="o">=</span> <span class="n">tronco_invertido</span><span class="o">.</span><span class="n">translate</span><span class="p">((</span><span class="mf">16.0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span>
-
-<span class="n">show</span><span class="p">(</span>
-    <span class="p">[</span><span class="n">telhado_conico</span><span class="p">,</span> <span class="n">tronco</span><span class="p">,</span> <span class="n">tronco_invertido</span><span class="p">],</span>
-    <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s2">"Telhado cônico"</span><span class="p">,</span> <span class="s2">"Tronco de cone"</span><span class="p">,</span> <span class="s2">"Tronco invertido"</span><span class="p">],</span>
-    <span class="n">visible_axes</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
-    <span class="n">z</span><span class="o">=-</span><span class="mf">1.5</span><span class="p">,</span>
-    <span class="n">plane_size</span><span class="o">=</span><span class="mi">25</span>
-<span class="p">)</span>
-</pre></div>
-<div class="clipboard-copy-txt" id="cell-6">from OCP.BRepPrimAPI import BRepPrimAPI_MakeCone
-
-# --- Cone pontiagudo ---
-telhado_conico = cq.Workplane().add(cq.Shape(BRepPrimAPI_MakeCone(2.5, 0, 2.0).Shape()))
-
-# --- Tronco de cone — base maior em baixo ---
-tronco = cq.Workplane().add(cq.Shape(BRepPrimAPI_MakeCone(3.0, 1.5, 3.0).Shape()))
-tronco = tronco.translate((8.0, 0, 0))
-
-# --- Tronco invertido — base menor em baixo ---
-tronco_invertido = cq.Workplane().add(cq.Shape(BRepPrimAPI_MakeCone(1.0, 3.0, 2.0).Shape()))
-tronco_invertido = tronco_invertido.translate((16.0, 0, 0))
-
-show(
-    [telhado_conico, tronco, tronco_invertido],
-    names=["Telhado cônico", "Tronco de cone", "Tronco invertido"],
-    visible_axes=None,
-    z=-1.5,
-    plane_size=25
-)</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2b096cb2">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<hr/>
-<h3 id="superficie-de-revolucao-revolve-e-toro">Superfície de Revolução — <code>.revolve()</code> e Toro<a class="anchor-link" href="#superficie-de-revolucao-revolve-e-toro">¶</a></h3><p>O <strong>revolve</strong> (revolução) cria um sólido girando um perfil 2D em torno de um eixo. É a operação adequada para qualquer forma com <strong>simetria axial</strong>: coberturas anulares, colunas com entases, formas de vaso.</p>
-<p>O processo é sempre o mesmo:</p>
-<ol>
-<li>Escolher um plano de trabalho que contenha o perfil e o eixo de revolução</li>
-<li>Desenhar o perfil deslocado do eixo</li>
-<li>Chamar <code>.revolve(360)</code> — o eixo padrão do <code>Workplane("XZ")</code> é o eixo Z do mundo</li>
-</ol>
-<p><strong>Limitação do OCCT</strong>: revolucionar um perfil <strong>circular</strong> 360° em torno de um eixo coplanar (o caso do toro) causa uma falha numérica interna do motor geométrico. Para criar um toro, usamos diretamente a primitiva <code>BRepPrimAPI_MakeTorus</code> do OCCT, que é o que o CadQuery usava internamente em versões anteriores:</p>
-<div class="highlight"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">OCP.BRepPrimAPI</span><span class="w"> </span><span class="kn">import</span> <span class="n">BRepPrimAPI_MakeTorus</span>
-
-<span class="c1"># r1 = raio do anel central, r2 = raio do tubo</span>
-<span class="n">anel</span> <span class="o">=</span> <span class="n">cq</span><span class="o">.</span><span class="n">Workplane</span><span class="p">()</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">cq</span><span class="o">.</span><span class="n">Shape</span><span class="p">(</span><span class="n">BRepPrimAPI_MakeTorus</span><span class="p">(</span><span class="n">r1</span><span class="p">,</span> <span class="n">r2</span><span class="p">)</span><span class="o">.</span><span class="n">Shape</span><span class="p">()))</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=42f8b6fc">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [74]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="CodeMirror cm-s-jupyter">
-<div class="zeroclipboard-container">
-<clipboard-copy for="cell-7">
-<div>
-<span class="notice" hidden="">Copied!</span>
-<svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
-<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z" fill="currentColor" fill-rule="evenodd"></path>
-<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z" fill="currentColor" fill-rule="evenodd"></path>
-</svg>
-</div>
-</clipboard-copy>
-</div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">OCP.BRepPrimAPI</span><span class="w"> </span><span class="kn">import</span> <span class="n">BRepPrimAPI_MakeTorus</span>
-
-<span class="c1"># --- Toro (argola) via BRepPrimAPI_MakeTorus ---</span>
-<span class="c1"># r1 = raio do anel central (distância do centro ao tubo)</span>
-<span class="c1"># r2 = raio do tubo (espessura do anel)</span>
-<span class="n">r1</span> <span class="o">=</span> <span class="mf">3.0</span>
-<span class="n">r2</span> <span class="o">=</span> <span class="mf">0.5</span>
-
-<span class="n">anel</span> <span class="o">=</span> <span class="n">cq</span><span class="o">.</span><span class="n">Workplane</span><span class="p">()</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">cq</span><span class="o">.</span><span class="n">Shape</span><span class="p">(</span><span class="n">BRepPrimAPI_MakeTorus</span><span class="p">(</span><span class="n">r1</span><span class="p">,</span> <span class="n">r2</span><span class="p">)</span><span class="o">.</span><span class="n">Shape</span><span class="p">()))</span>
-
-<span class="c1"># --- Anel com tubo mais espesso ---</span>
-<span class="n">r1_grosso</span> <span class="o">=</span> <span class="mf">3.0</span>
-<span class="n">r2_grosso</span> <span class="o">=</span> <span class="mf">1.2</span>
-
-<span class="n">anel_grosso</span> <span class="o">=</span> <span class="n">cq</span><span class="o">.</span><span class="n">Workplane</span><span class="p">()</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">cq</span><span class="o">.</span><span class="n">Shape</span><span class="p">(</span><span class="n">BRepPrimAPI_MakeTorus</span><span class="p">(</span><span class="n">r1_grosso</span><span class="p">,</span> <span class="n">r2_grosso</span><span class="p">)</span><span class="o">.</span><span class="n">Shape</span><span class="p">()))</span>
-<span class="n">anel_grosso</span> <span class="o">=</span> <span class="n">anel_grosso</span><span class="o">.</span><span class="n">translate</span><span class="p">((</span><span class="mf">10.0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span>
-
-<span class="n">show</span><span class="p">(</span>
-    <span class="p">[</span><span class="n">anel</span><span class="p">,</span> <span class="n">anel_grosso</span><span class="p">],</span>
-    <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s2">"Anel fino"</span><span class="p">,</span> <span class="s2">"Anel grosso"</span><span class="p">],</span>
-    <span class="n">visible_axes</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
-    <span class="n">z</span><span class="o">=-</span><span class="mf">0.6</span><span class="p">,</span>
-    <span class="n">plane_size</span><span class="o">=</span><span class="mi">18</span>
-<span class="p">)</span>
-</pre></div>
-<div class="clipboard-copy-txt" id="cell-7">from OCP.BRepPrimAPI import BRepPrimAPI_MakeTorus
-
-# --- Toro (argola) via BRepPrimAPI_MakeTorus ---
-# r1 = raio do anel central (distância do centro ao tubo)
-# r2 = raio do tubo (espessura do anel)
-r1 = 3.0
-r2 = 0.5
-
-anel = cq.Workplane().add(cq.Shape(BRepPrimAPI_MakeTorus(r1, r2).Shape()))
-
-# --- Anel com tubo mais espesso ---
-r1_grosso = 3.0
-r2_grosso = 1.2
-
-anel_grosso = cq.Workplane().add(cq.Shape(BRepPrimAPI_MakeTorus(r1_grosso, r2_grosso).Shape()))
-anel_grosso = anel_grosso.translate((10.0, 0, 0))
-
-show(
-    [anel, anel_grosso],
-    names=["Anel fino", "Anel grosso"],
-    visible_axes=None,
-    z=-0.6,
-    plane_size=18
-)</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2d0284d6">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>O revolve não precisa ser circular. Qualquer perfil 2D fechado pode ser girado em torno de um eixo:</p>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=08984050">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [75]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="CodeMirror cm-s-jupyter">
-<div class="zeroclipboard-container">
-<clipboard-copy for="cell-8">
-<div>
-<span class="notice" hidden="">Copied!</span>
-<svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
-<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z" fill="currentColor" fill-rule="evenodd"></path>
-<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z" fill="currentColor" fill-rule="evenodd"></path>
-</svg>
-</div>
-</clipboard-copy>
-</div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="c1"># Perfil trapezoidal girado 360° → forma cônica com espessura</span>
-
-<span class="n">dist_eixo</span> <span class="o">=</span> <span class="mf">0.5</span>   <span class="c1"># distância mínima do perfil ao eixo</span>
-<span class="n">larg_base</span> <span class="o">=</span> <span class="mf">2.0</span>   <span class="c1"># largura da base do perfil</span>
-<span class="n">larg_topo</span> <span class="o">=</span> <span class="mf">1.0</span>   <span class="c1"># largura do topo do perfil</span>
-<span class="n">altura_p</span>  <span class="o">=</span> <span class="mf">3.0</span>   <span class="c1"># altura do perfil</span>
-
-<span class="n">forma_revolvida</span> <span class="o">=</span> <span class="p">(</span>
-    <span class="n">cq</span><span class="o">.</span><span class="n">Workplane</span><span class="p">(</span><span class="s2">"XZ"</span><span class="p">)</span>
-    <span class="o">.</span><span class="n">polyline</span><span class="p">([</span>
-        <span class="p">(</span><span class="n">dist_eixo</span><span class="p">,</span>             <span class="mi">0</span><span class="p">),</span>
-        <span class="p">(</span><span class="n">dist_eixo</span> <span class="o">+</span> <span class="n">larg_base</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span>
-        <span class="p">(</span><span class="n">dist_eixo</span> <span class="o">+</span> <span class="n">larg_topo</span><span class="p">,</span> <span class="n">altura_p</span><span class="p">),</span>
-        <span class="p">(</span><span class="n">dist_eixo</span><span class="p">,</span>             <span class="n">altura_p</span><span class="p">),</span>
+<span class="c1"># ══════════════════════════════════════════════════════════════════════════════</span>
+<span class="c1"># VERSÃO 2 — perfil DXF com scale e rotação</span>
+<span class="c1"># ══════════════════════════════════════════════════════════════════════════════</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">scale_xy</span><span class="p">(</span><span class="n">shape</span><span class="p">,</span> <span class="n">scale</span> <span class="o">=</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">],</span> <span class="n">translate</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">]):</span>
+<span class="w">    </span><span class="sd">"""Scales X and Y and translates Z in a single matrix operation."""</span>
+    <span class="n">m</span> <span class="o">=</span> <span class="n">cq</span><span class="o">.</span><span class="n">Matrix</span><span class="p">([</span>
+        <span class="p">[</span><span class="n">scale</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span>  <span class="mi">0</span><span class="p">,</span>        <span class="mi">0</span><span class="p">,</span>        <span class="n">translate</span><span class="p">[</span><span class="mi">0</span><span class="p">]],</span>
+        <span class="p">[</span><span class="mi">0</span><span class="p">,</span>         <span class="n">scale</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="mi">0</span><span class="p">,</span>        <span class="n">translate</span><span class="p">[</span><span class="mi">1</span><span class="p">]],</span>
+        <span class="p">[</span><span class="mi">0</span><span class="p">,</span>         <span class="mi">0</span><span class="p">,</span>        <span class="n">scale</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="n">translate</span><span class="p">[</span><span class="mi">2</span><span class="p">]],</span>
+        <span class="p">[</span><span class="mi">0</span><span class="p">,</span>         <span class="mi">0</span><span class="p">,</span>        <span class="mi">0</span><span class="p">,</span>        <span class="mi">1</span>           <span class="p">]</span>
     <span class="p">])</span>
-    <span class="o">.</span><span class="n">close</span><span class="p">()</span>
-    <span class="o">.</span><span class="n">revolve</span><span class="p">(</span><span class="mi">360</span><span class="p">)</span>
-<span class="p">)</span>
+    <span class="k">return</span> <span class="n">shape</span><span class="o">.</span><span class="n">transformGeometry</span><span class="p">(</span><span class="n">m</span><span class="p">)</span>
 
-<span class="n">show</span><span class="p">(</span>
-    <span class="p">[</span><span class="n">forma_revolvida</span><span class="p">],</span>
-    <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s2">"Forma revolvida"</span><span class="p">],</span>
-    <span class="n">visible_axes</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
-    <span class="n">z</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
-    <span class="n">plane_size</span><span class="o">=</span><span class="mi">8</span>
-<span class="p">)</span>
+<span class="n">perfil</span>      <span class="o">=</span> <span class="n">cq</span><span class="o">.</span><span class="n">importers</span><span class="o">.</span><span class="n">importDXF</span><span class="p">(</span><span class="s2">"perfil_autocad.dxf"</span><span class="p">,</span> <span class="n">include</span><span class="o">=</span><span class="p">[</span><span class="s2">"profile_01"</span><span class="p">])</span>
+<span class="c1"># perfil    = cq.importers.importStep("perfil.step").val().scale(0.001)</span>
+<span class="n">perfil_wire</span> <span class="o">=</span> <span class="n">perfil</span><span class="o">.</span><span class="n">wires</span><span class="p">()</span><span class="o">.</span><span class="n">val</span><span class="p">()</span>
+
+<span class="n">wp</span> <span class="o">=</span> <span class="n">cq</span><span class="o">.</span><span class="n">Workplane</span><span class="p">(</span><span class="s2">"XY"</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n_pav</span> <span class="o">+</span> <span class="mi">1</span><span class="p">):</span>
+    <span class="n">cota_atual</span>   <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="n">cota_inicial</span> <span class="o">+</span> <span class="n">pap</span> <span class="o">*</span> <span class="n">i</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+    <span class="n">scale_factor</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="o">*</span> <span class="n">smooth_factor</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+
+    <span class="n">wire</span> <span class="o">=</span> <span class="p">(</span>
+        <span class="n">scale_xy</span><span class="p">(</span><span class="n">perfil_wire</span><span class="p">,</span>
+                 <span class="n">scale</span><span class="o">=</span><span class="p">(</span><span class="n">scale_factor</span><span class="p">,</span> <span class="n">scale_factor</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+                 <span class="p">)</span>
+        <span class="o">.</span><span class="n">rotate</span><span class="p">((</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span> <span class="n">i</span> <span class="o">*</span> <span class="n">rot_inc</span><span class="p">)</span>   <span class="c1"># rotação no wire</span>
+        <span class="o">.</span><span class="n">translate</span><span class="p">((</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">cota_atual</span><span class="p">))</span>                 <span class="c1"># posiciona na cota</span>
+    <span class="p">)</span>
+
+    <span class="n">wp</span> <span class="o">=</span> <span class="n">wp</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">wire</span><span class="p">)</span><span class="o">.</span><span class="n">toPending</span><span class="p">()</span>
+
+<span class="n">result_dxf</span> <span class="o">=</span> <span class="n">wp</span><span class="o">.</span><span class="n">loft</span><span class="p">()</span>
+<span class="c1"># show(result_dxf)</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-8"># Perfil trapezoidal girado 360° → forma cônica com espessura
+<div class="clipboard-copy-txt" id="cell-4"># ── Parâmetros ───────────────────────────────────────────────────────────────
+cota_inicial  = 0
+pap           = 3
+n_pav         = 30
+rot_inc       = 2.5
+smooth_factor = 1 / (np.pi * 2)
 
-dist_eixo = 0.5   # distância mínima do perfil ao eixo
-larg_base = 2.0   # largura da base do perfil
-larg_topo = 1.0   # largura do topo do perfil
-altura_p  = 3.0   # altura do perfil
-
-forma_revolvida = (
-    cq.Workplane("XZ")
-    .polyline([
-        (dist_eixo,             0),
-        (dist_eixo + larg_base, 0),
-        (dist_eixo + larg_topo, altura_p),
-        (dist_eixo,             altura_p),
+# ══════════════════════════════════════════════════════════════════════════════
+# VERSÃO 2 — perfil DXF com scale e rotação
+# ══════════════════════════════════════════════════════════════════════════════
+def scale_xy(shape, scale =[1,1,1], translate=[0,0,0]):
+    """Scales X and Y and translates Z in a single matrix operation."""
+    m = cq.Matrix([
+        [scale[0],  0,        0,        translate[0]],
+        [0,         scale[1], 0,        translate[1]],
+        [0,         0,        scale[2], translate[2]],
+        [0,         0,        0,        1           ]
     ])
-    .close()
-    .revolve(360)
-)
+    return shape.transformGeometry(m)
 
-show(
-    [forma_revolvida],
-    names=["Forma revolvida"],
-    visible_axes=None,
-    z=0,
-    plane_size=8
-)</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=dddc834a">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<hr/>
-<h3 id="rampa-via-loft-entre-perfis-paralelos">Rampa — via Loft entre Perfis Paralelos<a class="anchor-link" href="#rampa-via-loft-entre-perfis-paralelos">¶</a></h3><p>O loft entre <strong>dois perfis idênticos em posições diferentes</strong> cria uma transição inclinada — ideal para rampas. O perfil do topo é uma cópia da base deslocada para a outra extremidade e elevada:</p>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=b2994f96">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [76]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="CodeMirror cm-s-jupyter">
-<div class="zeroclipboard-container">
-<clipboard-copy for="cell-9">
-<div>
-<span class="notice" hidden="">Copied!</span>
-<svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
-<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z" fill="currentColor" fill-rule="evenodd"></path>
-<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z" fill="currentColor" fill-rule="evenodd"></path>
-</svg>
-</div>
-</clipboard-copy>
-</div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="c1"># --- Rampa via loft ---</span>
-<span class="kn">from</span><span class="w"> </span><span class="nn">copy</span><span class="w"> </span><span class="kn">import</span> <span class="n">copy</span>
+perfil      = cq.importers.importDXF("perfil_autocad.dxf", include=["profile_01"])
+# perfil    = cq.importers.importStep("perfil.step").val().scale(0.001)
+perfil_wire = perfil.wires().val()
 
-<span class="n">dx_r</span> <span class="o">=</span> <span class="mf">5.0</span>   <span class="c1"># comprimento da rampa</span>
-<span class="n">dy_r</span> <span class="o">=</span> <span class="mf">3.0</span>   <span class="c1"># largura da rampa</span>
-<span class="n">dz_r</span> <span class="o">=</span> <span class="mf">1.5</span>   <span class="c1"># altura total da rampa</span>
+wp = cq.Workplane("XY")
 
-<span class="c1"># Perfil da base: retângulo em uma extremidade</span>
-<span class="n">base_rampa</span> <span class="o">=</span> <span class="n">cq</span><span class="o">.</span><span class="n">Wire</span><span class="o">.</span><span class="n">makePolygon</span><span class="p">([</span>
-    <span class="n">cq</span><span class="o">.</span><span class="n">Vector</span><span class="p">(</span><span class="o">-</span><span class="n">dx_r</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="n">dy_r</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span>
-    <span class="n">cq</span><span class="o">.</span><span class="n">Vector</span><span class="p">(</span><span class="o">-</span><span class="n">dx_r</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span>  <span class="n">dy_r</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span>
-    <span class="n">cq</span><span class="o">.</span><span class="n">Vector</span><span class="p">(</span><span class="o">-</span><span class="n">dx_r</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span>  <span class="n">dy_r</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span>
-    <span class="n">cq</span><span class="o">.</span><span class="n">Vector</span><span class="p">(</span><span class="o">-</span><span class="n">dx_r</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="n">dy_r</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span>
-    <span class="n">cq</span><span class="o">.</span><span class="n">Vector</span><span class="p">(</span><span class="o">-</span><span class="n">dx_r</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="n">dy_r</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span>
-<span class="p">])</span>
+for i in range(n_pav + 1):
+    cota_atual   = round(cota_inicial + pap * i, 2)
+    scale_factor = np.abs(np.sin(i) * smooth_factor + 1)
 
-<span class="c1"># Perfil do topo: cópia da base deslocada para a outra extremidade e elevada</span>
-<span class="n">topo_rampa</span> <span class="o">=</span> <span class="n">copy</span><span class="p">(</span><span class="n">base_rampa</span><span class="p">)</span><span class="o">.</span><span class="n">translate</span><span class="p">((</span><span class="n">dx_r</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">dz_r</span><span class="p">))</span>
+    wire = (
+        scale_xy(perfil_wire,
+                 scale=(scale_factor, scale_factor, 1)
+                 )
+        .rotate((0, 0, 0), (0, 0, 1), i * rot_inc)   # rotação no wire
+        .translate((0, 0, cota_atual))                 # posiciona na cota
+    )
 
-<span class="n">rampa</span> <span class="o">=</span> <span class="p">(</span>
-    <span class="n">cq</span><span class="o">.</span><span class="n">Workplane</span><span class="p">(</span><span class="s2">"XY"</span><span class="p">)</span>
-    <span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">base_rampa</span><span class="p">)</span>
-    <span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">topo_rampa</span><span class="p">)</span>
-    <span class="o">.</span><span class="n">toPending</span><span class="p">()</span>
-    <span class="o">.</span><span class="n">loft</span><span class="p">()</span>
-<span class="p">)</span>
+    wp = wp.add(wire).toPending()
 
-<span class="n">show</span><span class="p">(</span>
-    <span class="p">[</span><span class="n">rampa</span><span class="p">],</span>
-    <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s2">"Rampa"</span><span class="p">],</span>
-    <span class="n">visible_axes</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
-    <span class="n">z</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
-    <span class="n">plane_size</span><span class="o">=</span><span class="mi">8</span>
-<span class="p">)</span>
-</pre></div>
-<div class="clipboard-copy-txt" id="cell-9"># --- Rampa via loft ---
-from copy import copy
-
-dx_r = 5.0   # comprimento da rampa
-dy_r = 3.0   # largura da rampa
-dz_r = 1.5   # altura total da rampa
-
-# Perfil da base: retângulo em uma extremidade
-base_rampa = cq.Wire.makePolygon([
-    cq.Vector(-dx_r/2, -dy_r/2, 0),
-    cq.Vector(-dx_r/2,  dy_r/2, 0),
-    cq.Vector(-dx_r/2,  dy_r/2, 0),
-    cq.Vector(-dx_r/2, -dy_r/2, 0),
-    cq.Vector(-dx_r/2, -dy_r/2, 0),
-])
-
-# Perfil do topo: cópia da base deslocada para a outra extremidade e elevada
-topo_rampa = copy(base_rampa).translate((dx_r, 0, dz_r))
-
-rampa = (
-    cq.Workplane("XY")
-    .add(base_rampa)
-    .add(topo_rampa)
-    .toPending()
-    .loft()
-)
-
-show(
-    [rampa],
-    names=["Rampa"],
-    visible_axes=None,
-    z=0,
-    plane_size=8
-)</div>
+result_dxf = wp.loft()
+# show(result_dxf)</div>
 </div>
 </div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=4c253abe">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<hr/>
-<h2 id="operacoes-booleanas">Operações Booleanas<a class="anchor-link" href="#operacoes-booleanas">¶</a></h2><p>As <strong>operações booleanas</strong> permitem combinar dois ou mais sólidos para criar formas que não seriam possíveis com uma única primitiva.</p>
-<table>
-<thead>
-<tr>
-<th>Operação</th>
-<th>Método</th>
-<th>Resultado</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>União</td>
-<td><code>.union(outro)</code></td>
-<td>Une os dois sólidos em um único volume</td>
-</tr>
-<tr>
-<td>Subtração</td>
-<td><code>.cut(outro)</code></td>
-<td>Remove o volume do segundo sólido do primeiro</td>
-</tr>
-<tr>
-<td>Interseção</td>
-<td><code>.intersect(outro)</code></td>
-<td>Mantém apenas o volume compartilhado pelos dois</td>
-</tr>
-</tbody>
-</table>
-<blockquote>
-<p>💡 <strong>Dica</strong>: nas operações booleanas, a <strong>ordem importa</strong> para subtração e interseção. <code>a.cut(b)</code> é diferente de <code>b.cut(a)</code>.</p>
-</blockquote>
-<hr/>
-<h3 id="uniao-union">União — <code>.union()</code><a class="anchor-link" href="#uniao-union">¶</a></h3>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=f323763b">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [77]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="CodeMirror cm-s-jupyter">
-<div class="zeroclipboard-container">
-<clipboard-copy for="cell-10">
-<div>
-<span class="notice" hidden="">Copied!</span>
-<svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
-<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z" fill="currentColor" fill-rule="evenodd"></path>
-<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z" fill="currentColor" fill-rule="evenodd"></path>
-</svg>
-</div>
-</clipboard-copy>
-</div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">corpo</span>  <span class="o">=</span> <span class="n">cq</span><span class="o">.</span><span class="n">Workplane</span><span class="p">(</span><span class="s2">"XY"</span><span class="p">)</span><span class="o">.</span><span class="n">box</span><span class="p">(</span><span class="mf">10.0</span><span class="p">,</span> <span class="mf">8.0</span><span class="p">,</span> <span class="mf">6.0</span><span class="p">)</span>
-<span class="n">acesso</span> <span class="o">=</span> <span class="n">cq</span><span class="o">.</span><span class="n">Workplane</span><span class="p">(</span><span class="s2">"XY"</span><span class="p">,</span> <span class="n">origin</span><span class="o">=</span><span class="p">(</span><span class="mf">7.0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mf">1.5</span><span class="p">))</span><span class="o">.</span><span class="n">box</span><span class="p">(</span><span class="mf">4.0</span><span class="p">,</span> <span class="mf">4.0</span><span class="p">,</span> <span class="mf">3.0</span><span class="p">)</span>
-
-<span class="c1"># Antes da união</span>
-<span class="n">show</span><span class="p">(</span>
-    <span class="p">[</span><span class="n">corpo</span><span class="p">,</span> <span class="n">acesso</span><span class="p">],</span>
-    <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s2">"Corpo"</span><span class="p">,</span> <span class="s2">"Acesso"</span><span class="p">],</span>
-    <span class="n">colors</span><span class="o">=</span><span class="p">[</span><span class="s2">"lightsteelblue"</span><span class="p">,</span> <span class="s2">"lightsalmon"</span><span class="p">],</span>
-    <span class="n">visible_axes</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
-    <span class="n">z</span><span class="o">=-</span><span class="mf">3.0</span><span class="p">,</span>
-    <span class="n">plane_size</span><span class="o">=</span><span class="mi">20</span>
-<span class="p">)</span>
-</pre></div>
-<div class="clipboard-copy-txt" id="cell-10">corpo  = cq.Workplane("XY").box(10.0, 8.0, 6.0)
-acesso = cq.Workplane("XY", origin=(7.0, 0, -1.5)).box(4.0, 4.0, 3.0)
-
-# Antes da união
-show(
-    [corpo, acesso],
-    names=["Corpo", "Acesso"],
-    colors=["lightsteelblue", "lightsalmon"],
-    visible_axes=None,
-    z=-3.0,
-    plane_size=20
-)</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=d159bebd">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [78]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="CodeMirror cm-s-jupyter">
-<div class="zeroclipboard-container">
-<clipboard-copy for="cell-11">
-<div>
-<span class="notice" hidden="">Copied!</span>
-<svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
-<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z" fill="currentColor" fill-rule="evenodd"></path>
-<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z" fill="currentColor" fill-rule="evenodd"></path>
-</svg>
-</div>
-</clipboard-copy>
-</div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">edificio</span> <span class="o">=</span> <span class="n">corpo</span><span class="o">.</span><span class="n">union</span><span class="p">(</span><span class="n">acesso</span><span class="p">)</span>
-
-<span class="n">show</span><span class="p">(</span>
-    <span class="p">[</span><span class="n">edificio</span><span class="p">],</span>
-    <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s2">"Edifício unido"</span><span class="p">],</span>
-    <span class="n">visible_axes</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
-    <span class="n">z</span><span class="o">=-</span><span class="mf">3.0</span><span class="p">,</span>
-    <span class="n">plane_size</span><span class="o">=</span><span class="mi">20</span>
-<span class="p">)</span>
-</pre></div>
-<div class="clipboard-copy-txt" id="cell-11">edificio = corpo.union(acesso)
-
-show(
-    [edificio],
-    names=["Edifício unido"],
-    visible_axes=None,
-    z=-3.0,
-    plane_size=20
-)</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=739bfa5a">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<hr/>
-<h3 id="subtracao-cut">Subtração — <code>.cut()</code><a class="anchor-link" href="#subtracao-cut">¶</a></h3>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=409e9b5a">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [79]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="CodeMirror cm-s-jupyter">
-<div class="zeroclipboard-container">
-<clipboard-copy for="cell-12">
-<div>
-<span class="notice" hidden="">Copied!</span>
-<svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
-<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z" fill="currentColor" fill-rule="evenodd"></path>
-<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z" fill="currentColor" fill-rule="evenodd"></path>
-</svg>
-</div>
-</clipboard-copy>
-</div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">parede</span>     <span class="o">=</span> <span class="n">cq</span><span class="o">.</span><span class="n">Workplane</span><span class="p">(</span><span class="s2">"XY"</span><span class="p">)</span><span class="o">.</span><span class="n">box</span><span class="p">(</span><span class="mf">8.0</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">,</span> <span class="mf">3.0</span><span class="p">)</span>
-<span class="n">vao_janela</span> <span class="o">=</span> <span class="n">cq</span><span class="o">.</span><span class="n">Workplane</span><span class="p">(</span><span class="s2">"XY"</span><span class="p">,</span> <span class="n">origin</span><span class="o">=</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mf">0.4</span><span class="p">))</span><span class="o">.</span><span class="n">box</span><span class="p">(</span><span class="mf">1.5</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mf">1.5</span><span class="p">)</span>
-<span class="n">vao_porta</span>  <span class="o">=</span> <span class="n">cq</span><span class="o">.</span><span class="n">Workplane</span><span class="p">(</span><span class="s2">"XY"</span><span class="p">,</span> <span class="n">origin</span><span class="o">=</span><span class="p">(</span><span class="o">-</span><span class="mf">3.0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.5</span><span class="p">))</span><span class="o">.</span><span class="n">box</span><span class="p">(</span><span class="mf">1.0</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mf">2.0</span><span class="p">)</span>
-
-<span class="n">parede_com_vaos</span> <span class="o">=</span> <span class="n">parede</span><span class="o">.</span><span class="n">cut</span><span class="p">(</span><span class="n">vao_janela</span><span class="p">)</span><span class="o">.</span><span class="n">cut</span><span class="p">(</span><span class="n">vao_porta</span><span class="p">)</span>
-
-<span class="n">show</span><span class="p">(</span>
-    <span class="p">[</span><span class="n">parede_com_vaos</span><span class="p">],</span>
-    <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s2">"Parede com vãos"</span><span class="p">],</span>
-    <span class="n">colors</span><span class="o">=</span><span class="p">[</span><span class="s2">"lightgray"</span><span class="p">],</span>
-    <span class="n">visible_axes</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
-    <span class="n">z</span><span class="o">=-</span><span class="mf">1.5</span><span class="p">,</span>
-    <span class="n">plane_size</span><span class="o">=</span><span class="mi">10</span>
-<span class="p">)</span>
-</pre></div>
-<div class="clipboard-copy-txt" id="cell-12">parede     = cq.Workplane("XY").box(8.0, 0.3, 3.0)
-vao_janela = cq.Workplane("XY", origin=(0, 0, 0.4)).box(1.5, 0.5, 1.5)
-vao_porta  = cq.Workplane("XY", origin=(-3.0, 0, -0.5)).box(1.0, 0.5, 2.0)
-
-parede_com_vaos = parede.cut(vao_janela).cut(vao_porta)
-
-show(
-    [parede_com_vaos],
-    names=["Parede com vãos"],
-    colors=["lightgray"],
-    visible_axes=None,
-    z=-1.5,
-    plane_size=10
-)</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=5c0ef767">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [80]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="CodeMirror cm-s-jupyter">
-<div class="zeroclipboard-container">
-<clipboard-copy for="cell-13">
-<div>
-<span class="notice" hidden="">Copied!</span>
-<svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
-<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z" fill="currentColor" fill-rule="evenodd"></path>
-<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z" fill="currentColor" fill-rule="evenodd"></path>
-</svg>
-</div>
-</clipboard-copy>
-</div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="c1"># Pátio escavado em um volume compacto</span>
-<span class="n">bloco</span> <span class="o">=</span> <span class="n">cq</span><span class="o">.</span><span class="n">Workplane</span><span class="p">(</span><span class="s2">"XY"</span><span class="p">)</span><span class="o">.</span><span class="n">box</span><span class="p">(</span><span class="mf">12.0</span><span class="p">,</span> <span class="mf">12.0</span><span class="p">,</span> <span class="mf">4.0</span><span class="p">)</span>
-<span class="n">patio</span> <span class="o">=</span> <span class="n">cq</span><span class="o">.</span><span class="n">Workplane</span><span class="p">(</span><span class="s2">"XY"</span><span class="p">,</span> <span class="n">origin</span><span class="o">=</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">))</span><span class="o">.</span><span class="n">box</span><span class="p">(</span><span class="mf">6.0</span><span class="p">,</span> <span class="mf">6.0</span><span class="p">,</span> <span class="mf">5.0</span><span class="p">)</span>
-
-<span class="n">edificio_patio</span> <span class="o">=</span> <span class="n">bloco</span><span class="o">.</span><span class="n">cut</span><span class="p">(</span><span class="n">patio</span><span class="p">)</span>
-
-<span class="n">show</span><span class="p">(</span>
-    <span class="p">[</span><span class="n">edificio_patio</span><span class="p">],</span>
-    <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s2">"Edifício com pátio"</span><span class="p">],</span>
-    <span class="n">colors</span><span class="o">=</span><span class="p">[</span><span class="s2">"lightsteelblue"</span><span class="p">],</span>
-    <span class="n">visible_axes</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
-    <span class="n">z</span><span class="o">=-</span><span class="mf">2.0</span><span class="p">,</span>
-    <span class="n">plane_size</span><span class="o">=</span><span class="mi">15</span>
-<span class="p">)</span>
-</pre></div>
-<div class="clipboard-copy-txt" id="cell-13"># Pátio escavado em um volume compacto
-bloco = cq.Workplane("XY").box(12.0, 12.0, 4.0)
-patio = cq.Workplane("XY", origin=(0, 0, 0.5)).box(6.0, 6.0, 5.0)
-
-edificio_patio = bloco.cut(patio)
-
-show(
-    [edificio_patio],
-    names=["Edifício com pátio"],
-    colors=["lightsteelblue"],
-    visible_axes=None,
-    z=-2.0,
-    plane_size=15
-)</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=5ea38af4">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<hr/>
-<h3 id="intersecao-intersect">Interseção — <code>.intersect()</code><a class="anchor-link" href="#intersecao-intersect">¶</a></h3>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=7a29d9b3">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [81]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="CodeMirror cm-s-jupyter">
-<div class="zeroclipboard-container">
-<clipboard-copy for="cell-14">
-<div>
-<span class="notice" hidden="">Copied!</span>
-<svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
-<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z" fill="currentColor" fill-rule="evenodd"></path>
-<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z" fill="currentColor" fill-rule="evenodd"></path>
-</svg>
-</div>
-</clipboard-copy>
-</div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">cilindro_h</span> <span class="o">=</span> <span class="n">cq</span><span class="o">.</span><span class="n">Workplane</span><span class="p">(</span><span class="s2">"XZ"</span><span class="p">)</span><span class="o">.</span><span class="n">cylinder</span><span class="p">(</span><span class="mf">6.0</span><span class="p">,</span> <span class="mf">2.0</span><span class="p">)</span>
-<span class="n">cilindro_v</span> <span class="o">=</span> <span class="n">cq</span><span class="o">.</span><span class="n">Workplane</span><span class="p">(</span><span class="s2">"XY"</span><span class="p">)</span><span class="o">.</span><span class="n">cylinder</span><span class="p">(</span><span class="mf">6.0</span><span class="p">,</span> <span class="mf">2.0</span><span class="p">)</span>
-
-<span class="c1"># Antes da interseção — transparência para ver os dois sobrepostos</span>
-<span class="n">show</span><span class="p">(</span>
-    <span class="p">[</span><span class="n">cilindro_h</span><span class="p">,</span> <span class="n">cilindro_v</span><span class="p">],</span>
-    <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s2">"Cilindro horizontal"</span><span class="p">,</span> <span class="s2">"Cilindro vertical"</span><span class="p">],</span>
-    <span class="n">colors</span><span class="o">=</span><span class="p">[</span><span class="s2">"lightsteelblue"</span><span class="p">,</span> <span class="s2">"lightsalmon"</span><span class="p">],</span>
-    <span class="n">opacity</span><span class="o">=</span><span class="mf">0.6</span>
-<span class="p">)</span>
-</pre></div>
-<div class="clipboard-copy-txt" id="cell-14">cilindro_h = cq.Workplane("XZ").cylinder(6.0, 2.0)
-cilindro_v = cq.Workplane("XY").cylinder(6.0, 2.0)
-
-# Antes da interseção — transparência para ver os dois sobrepostos
-show(
-    [cilindro_h, cilindro_v],
-    names=["Cilindro horizontal", "Cilindro vertical"],
-    colors=["lightsteelblue", "lightsalmon"],
-    opacity=0.6
-)</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=9bfdda3c">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [82]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="CodeMirror cm-s-jupyter">
-<div class="zeroclipboard-container">
-<clipboard-copy for="cell-15">
-<div>
-<span class="notice" hidden="">Copied!</span>
-<svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
-<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z" fill="currentColor" fill-rule="evenodd"></path>
-<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z" fill="currentColor" fill-rule="evenodd"></path>
-</svg>
-</div>
-</clipboard-copy>
-</div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">intersecao</span> <span class="o">=</span> <span class="n">cilindro_h</span><span class="o">.</span><span class="n">intersect</span><span class="p">(</span><span class="n">cilindro_v</span><span class="p">)</span>
-
-<span class="n">show</span><span class="p">([</span><span class="n">intersecao</span><span class="p">],</span> <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s2">"Interseção"</span><span class="p">],</span> <span class="n">colors</span><span class="o">=</span><span class="p">[</span><span class="s2">"steelblue"</span><span class="p">])</span>
-</pre></div>
-<div class="clipboard-copy-txt" id="cell-15">intersecao = cilindro_h.intersect(cilindro_v)
-
-show([intersecao], names=["Interseção"], colors=["steelblue"])</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=3b258c73">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [83]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="CodeMirror cm-s-jupyter">
-<div class="zeroclipboard-container">
-<clipboard-copy for="cell-16">
-<div>
-<span class="notice" hidden="">Copied!</span>
-<svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
-<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z" fill="currentColor" fill-rule="evenodd"></path>
-<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z" fill="currentColor" fill-rule="evenodd"></path>
-</svg>
-</div>
-</clipboard-copy>
-</div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="c1"># Envelope máximo x cone de afastamento (via loft)</span>
-<span class="n">envelope</span> <span class="o">=</span> <span class="n">cq</span><span class="o">.</span><span class="n">Workplane</span><span class="p">(</span><span class="s2">"XY"</span><span class="p">)</span><span class="o">.</span><span class="n">box</span><span class="p">(</span><span class="mf">10.0</span><span class="p">,</span> <span class="mf">10.0</span><span class="p">,</span> <span class="mf">8.0</span><span class="p">)</span>
-
-<span class="n">base_af</span> <span class="o">=</span> <span class="n">cq</span><span class="o">.</span><span class="n">Wire</span><span class="o">.</span><span class="n">makeCircle</span><span class="p">(</span><span class="mf">14.0</span><span class="p">,</span> <span class="n">cq</span><span class="o">.</span><span class="n">Vector</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">7</span><span class="p">,</span> <span class="o">-</span><span class="mi">4</span><span class="p">),</span> <span class="n">cq</span><span class="o">.</span><span class="n">Vector</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">))</span>
-<span class="n">topo_af</span> <span class="o">=</span> <span class="n">cq</span><span class="o">.</span><span class="n">Wire</span><span class="o">.</span><span class="n">makeCircle</span><span class="p">(</span><span class="mf">2.0</span><span class="p">,</span>  <span class="n">cq</span><span class="o">.</span><span class="n">Vector</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">7</span><span class="p">,</span>  <span class="mi">8</span><span class="p">),</span> <span class="n">cq</span><span class="o">.</span><span class="n">Vector</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">))</span>
-
-<span class="n">cone_afastamento</span> <span class="o">=</span> <span class="n">cq</span><span class="o">.</span><span class="n">Workplane</span><span class="p">(</span><span class="s2">"XY"</span><span class="p">)</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">base_af</span><span class="p">)</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">topo_af</span><span class="p">)</span><span class="o">.</span><span class="n">toPending</span><span class="p">()</span><span class="o">.</span><span class="n">loft</span><span class="p">()</span>
-
-<span class="n">show</span><span class="p">(</span>
-    <span class="p">[</span><span class="n">envelope</span><span class="p">,</span> <span class="n">cone_afastamento</span><span class="p">],</span>
-    <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s2">"Envelope"</span><span class="p">,</span> <span class="s2">"Cone de afastamento"</span><span class="p">],</span>
-    <span class="n">colors</span><span class="o">=</span><span class="p">[</span><span class="s2">"lightsteelblue"</span><span class="p">,</span> <span class="s2">"lightsalmon"</span><span class="p">],</span>
-    <span class="n">opacity</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span>
-    <span class="n">visible_axes</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
-    <span class="n">z</span><span class="o">=-</span><span class="mf">4.0</span><span class="p">,</span>
-    <span class="n">plane_size</span><span class="o">=</span><span class="mi">20</span>
-<span class="p">)</span>
-</pre></div>
-<div class="clipboard-copy-txt" id="cell-16"># Envelope máximo x cone de afastamento (via loft)
-envelope = cq.Workplane("XY").box(10.0, 10.0, 8.0)
-
-base_af = cq.Wire.makeCircle(14.0, cq.Vector(0, -7, -4), cq.Vector(0, 0, 1))
-topo_af = cq.Wire.makeCircle(2.0,  cq.Vector(0, -7,  8), cq.Vector(0, 0, 1))
-
-cone_afastamento = cq.Workplane("XY").add(base_af).add(topo_af).toPending().loft()
-
-show(
-    [envelope, cone_afastamento],
-    names=["Envelope", "Cone de afastamento"],
-    colors=["lightsteelblue", "lightsalmon"],
-    opacity=0.5,
-    visible_axes=None,
-    z=-4.0,
-    plane_size=20
-)</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=726fb4e5">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [84]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="CodeMirror cm-s-jupyter">
-<div class="zeroclipboard-container">
-<clipboard-copy for="cell-17">
-<div>
-<span class="notice" hidden="">Copied!</span>
-<svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
-<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z" fill="currentColor" fill-rule="evenodd"></path>
-<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z" fill="currentColor" fill-rule="evenodd"></path>
-</svg>
-</div>
-</clipboard-copy>
-</div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">volume_resultante</span> <span class="o">=</span> <span class="n">envelope</span><span class="o">.</span><span class="n">intersect</span><span class="p">(</span><span class="n">cone_afastamento</span><span class="p">)</span>
-
-<span class="n">show</span><span class="p">(</span>
-    <span class="p">[</span><span class="n">volume_resultante</span><span class="p">],</span>
-    <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s2">"Volume resultante"</span><span class="p">],</span>
-    <span class="n">colors</span><span class="o">=</span><span class="p">[</span><span class="s2">"steelblue"</span><span class="p">],</span>
-    <span class="n">visible_axes</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
-    <span class="n">z</span><span class="o">=-</span><span class="mf">4.0</span><span class="p">,</span>
-    <span class="n">plane_size</span><span class="o">=</span><span class="mi">15</span>
-<span class="p">)</span>
-</pre></div>
-<div class="clipboard-copy-txt" id="cell-17">volume_resultante = envelope.intersect(cone_afastamento)
-
-show(
-    [volume_resultante],
-    names=["Volume resultante"],
-    colors=["steelblue"],
-    visible_axes=None,
-    z=-4.0,
-    plane_size=15
-)</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=559c4ed9">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<hr/>
-<h2 id="combinando-operacoes">Combinando Operações<a class="anchor-link" href="#combinando-operacoes">¶</a></h2><p>Edifício com torre, cobertura cônica e aberturas.</p>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=63cebd68">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [85]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="CodeMirror cm-s-jupyter">
-<div class="zeroclipboard-container">
-<clipboard-copy for="cell-18">
-<div>
-<span class="notice" hidden="">Copied!</span>
-<svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
-<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z" fill="currentColor" fill-rule="evenodd"></path>
-<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z" fill="currentColor" fill-rule="evenodd"></path>
-</svg>
-</div>
-</clipboard-copy>
-</div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="c1"># --- Dimensões ---</span>
-<span class="n">base_larg</span>  <span class="o">=</span> <span class="mf">10.0</span>
-<span class="n">base_prof</span>  <span class="o">=</span> <span class="mf">8.0</span>
-<span class="n">base_alt</span>   <span class="o">=</span> <span class="mf">4.0</span>
-<span class="n">torre_raio</span> <span class="o">=</span> <span class="mf">1.5</span>
-<span class="n">torre_alt</span>  <span class="o">=</span> <span class="mf">6.0</span>
-
-<span class="c1"># --- Volumes ---</span>
-<span class="n">base</span>  <span class="o">=</span> <span class="n">cq</span><span class="o">.</span><span class="n">Workplane</span><span class="p">(</span><span class="s2">"XY"</span><span class="p">)</span><span class="o">.</span><span class="n">box</span><span class="p">(</span><span class="n">base_larg</span><span class="p">,</span> <span class="n">base_prof</span><span class="p">,</span> <span class="n">base_alt</span><span class="p">)</span>
-<span class="n">torre</span> <span class="o">=</span> <span class="n">cq</span><span class="o">.</span><span class="n">Workplane</span><span class="p">(</span><span class="s2">"XY"</span><span class="p">)</span><span class="o">.</span><span class="n">cylinder</span><span class="p">(</span><span class="n">torre_alt</span><span class="p">,</span> <span class="n">torre_raio</span><span class="p">)</span>
-
-<span class="c1"># --- Cobertura cônica via BRepPrimAPI_MakeCone ---</span>
-<span class="n">z_cob</span>     <span class="o">=</span> <span class="n">torre_alt</span> <span class="o">/</span> <span class="mi">2</span>
-<span class="n">cobertura</span> <span class="o">=</span> <span class="n">cq</span><span class="o">.</span><span class="n">Workplane</span><span class="p">()</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">cq</span><span class="o">.</span><span class="n">Shape</span><span class="p">(</span><span class="n">BRepPrimAPI_MakeCone</span><span class="p">(</span><span class="mf">2.0</span><span class="p">,</span> <span class="mf">0.01</span><span class="p">,</span> <span class="mf">2.5</span><span class="p">)</span><span class="o">.</span><span class="n">Shape</span><span class="p">()))</span>
-<span class="n">cobertura</span> <span class="o">=</span> <span class="n">cobertura</span><span class="o">.</span><span class="n">translate</span><span class="p">((</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">z_cob</span><span class="p">))</span>
-
-<span class="c1"># --- Vãos ---</span>
-<span class="n">janela_frente</span> <span class="o">=</span> <span class="n">cq</span><span class="o">.</span><span class="n">Workplane</span><span class="p">(</span><span class="s2">"XY"</span><span class="p">,</span> <span class="n">origin</span><span class="o">=</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">))</span><span class="o">.</span><span class="n">box</span><span class="p">(</span><span class="mf">2.0</span><span class="p">,</span> <span class="n">base_prof</span> <span class="o">+</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mf">1.5</span><span class="p">)</span>
-<span class="n">janela_lado</span>   <span class="o">=</span> <span class="n">cq</span><span class="o">.</span><span class="n">Workplane</span><span class="p">(</span><span class="s2">"XY"</span><span class="p">,</span> <span class="n">origin</span><span class="o">=</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">))</span><span class="o">.</span><span class="n">box</span><span class="p">(</span><span class="n">base_larg</span> <span class="o">+</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mf">2.0</span><span class="p">,</span> <span class="mf">1.5</span><span class="p">)</span>
-
-<span class="c1"># --- Montagem ---</span>
-<span class="n">edificio</span> <span class="o">=</span> <span class="n">base</span><span class="o">.</span><span class="n">union</span><span class="p">(</span><span class="n">torre</span><span class="p">)</span>
-<span class="n">edificio</span> <span class="o">=</span> <span class="n">edificio</span><span class="o">.</span><span class="n">union</span><span class="p">(</span><span class="n">cobertura</span><span class="p">)</span>
-<span class="n">edificio</span> <span class="o">=</span> <span class="n">edificio</span><span class="o">.</span><span class="n">cut</span><span class="p">(</span><span class="n">janela_frente</span><span class="p">)</span>
-<span class="n">edificio</span> <span class="o">=</span> <span class="n">edificio</span><span class="o">.</span><span class="n">cut</span><span class="p">(</span><span class="n">janela_lado</span><span class="p">)</span>
-
-<span class="n">show</span><span class="p">(</span>
-    <span class="p">[</span><span class="n">edificio</span><span class="p">],</span>
-    <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s2">"Composição final"</span><span class="p">],</span>
-    <span class="n">colors</span><span class="o">=</span><span class="p">[</span><span class="s2">"lightsteelblue"</span><span class="p">],</span>
-    <span class="n">visible_axes</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
-    <span class="n">z</span><span class="o">=-</span><span class="mf">2.0</span><span class="p">,</span>
-    <span class="n">plane_size</span><span class="o">=</span><span class="mi">15</span>
-<span class="p">)</span>
-</pre></div>
-<div class="clipboard-copy-txt" id="cell-18"># --- Dimensões ---
-base_larg  = 10.0
-base_prof  = 8.0
-base_alt   = 4.0
-torre_raio = 1.5
-torre_alt  = 6.0
-
-# --- Volumes ---
-base  = cq.Workplane("XY").box(base_larg, base_prof, base_alt)
-torre = cq.Workplane("XY").cylinder(torre_alt, torre_raio)
-
-# --- Cobertura cônica via BRepPrimAPI_MakeCone ---
-z_cob     = torre_alt / 2
-cobertura = cq.Workplane().add(cq.Shape(BRepPrimAPI_MakeCone(2.0, 0.01, 2.5).Shape()))
-cobertura = cobertura.translate((0, 0, z_cob))
-
-# --- Vãos ---
-janela_frente = cq.Workplane("XY", origin=(0, 0, 0.5)).box(2.0, base_prof + 0.5, 1.5)
-janela_lado   = cq.Workplane("XY", origin=(0, 0, 0.5)).box(base_larg + 0.5, 2.0, 1.5)
-
-# --- Montagem ---
-edificio = base.union(torre)
-edificio = edificio.union(cobertura)
-edificio = edificio.cut(janela_frente)
-edificio = edificio.cut(janela_lado)
-
-show(
-    [edificio],
-    names=["Composição final"],
-    colors=["lightsteelblue"],
-    visible_axes=None,
-    z=-2.0,
-    plane_size=15
-)</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=6f2cac34">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<hr/>
-<h2 id="exercicio">Exercício<a class="anchor-link" href="#exercicio">¶</a></h2><p>Crie um modelo volumétrico de um <strong>pavilhão simples</strong> com os seguintes elementos:</p>
-<ol>
-<li><strong>Base</strong>: volume retangular representando as paredes</li>
-<li><strong>Cobertura</strong>: use loft para criar uma rampa de acesso</li>
-<li><strong>Vãos</strong>: abra pelo menos duas janelas e uma porta usando subtração</li>
-<li><strong>Detalhe</strong>: adicione colunas cilíndricas em pelo menos dois cantos usando união</li>
-</ol>
-<p>Use variáveis para todas as dimensões e exiba com <code>show()</code> usando <code>visible_axes=None</code>, <code>z=0</code> e cores à sua escolha.</p>
-<p>Consulte a lista completa de cores em <a href="https://plotly.com/python/css-colors/">Plotly: Supported CSS Colors</a>.</p>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=29df7256">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [86]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="CodeMirror cm-s-jupyter">
-<div class="zeroclipboard-container">
-<clipboard-copy for="cell-19">
-<div>
-<span class="notice" hidden="">Copied!</span>
-<svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
-<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z" fill="currentColor" fill-rule="evenodd"></path>
-<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z" fill="currentColor" fill-rule="evenodd"></path>
-</svg>
-</div>
-</clipboard-copy>
-</div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="c1"># Escreva seu código aqui</span>
-</pre></div>
-<div class="clipboard-copy-txt" id="cell-19"># Escreva seu código aqui
-
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=5ea54bcb">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<hr/>
-<h2 id="resumo">Resumo<a class="anchor-link" href="#resumo">¶</a></h2><p>Neste notebook você aprendeu:</p>
-<ul>
-<li>As primitivas do CadQuery: <code>box</code>, <code>cylinder</code>, <code>sphere</code></li>
-<li>O parâmetro <code>centered</code> da caixa e o parâmetro <code>angle</code> do cilindro e da esfera</li>
-<li>Como criar <strong>cúpulas</strong> com <code>sphere(angle1, angle2)</code></li>
-<li>Como criar <strong>cones e troncos</strong> com <code>BRepPrimAPI_MakeCone</code> do OCCT</li>
-<li>Como criar <strong>superfícies de revolução</strong> com <code>.revolve()</code> — toros, vasos e formas axialmente simétricas</li>
-<li>Como criar <strong>rampas</strong> via <strong>loft</strong> entre perfis paralelos deslocados</li>
-<li>As três <strong>operações booleanas</strong>: <code>.union()</code>, <code>.cut()</code>, <code>.intersect()</code></li>
-<li>Como <strong>combinar</strong> primitivas, loft, revolve e booleanas para construir modelos complexos</li>
-</ul>
-<p>No próximo notebook veremos como trabalhar com <strong>perfis 2D e extrusões</strong> — a base da modelagem arquitetônica a partir de plantas baixas.</p>
-<hr/>
-<p><em>CadQuery para Arquitetos e Engenheiros — Versão Google Colab</em></p>
 </div>
 </div>
 </div>
