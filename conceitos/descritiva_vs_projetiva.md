@@ -59,19 +59,27 @@ Seu interesse pela geometria nasceu diretamente de problemas práticos de perspe
 
 A obra fundante é o *Brouillon project d'une atteinte aux événements des rencontres d'un cône avec un plan* (1639) — em português: *Rascunho de um ensaio sobre os resultados de tomar seções planas de um cone*. Conforme a [Encyclopedia.com](https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/girard-desargues-and-projective-geometry), nessa obra Desargues estabeleceu os princípios da geometria projetiva como alternativa à geometria euclidiana tradicional.
 
-### O eclipse de 200 anos
+### O eclipse de 200 anos — e a chama que Pascal manteve acesa
 
-O destino inicial da obra de Desargues é um dos episódios mais curiosos da história da matemática. Apenas 50 cópias do *Brouillon project* foram impressas. A obra era notoriamente difícil: Desargues introduziu mais de 70 novos termos, a maioria baseada em referências botânicas obscuras — dos quais apenas *involução* sobreviveu ao uso corrente. Conforme a [Encyclopedia.com](https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/girard-desargues-and-projective-geometry), Blaise Pascal foi um dos poucos capazes de compreendê-la.
+O destino inicial da obra de Desargues é um dos episódios mais curiosos da história da matemática. Apenas 50 cópias do *Brouillon project* foram impressas. A obra era notoriamente difícil: Desargues introduziu mais de 70 novos termos, a maioria baseada em referências botânicas obscuras — dos quais apenas *involução* sobreviveu ao uso corrente.
 
-Além da dificuldade, a ascensão da geometria analítica de Descartes desviou a atenção dos matemáticos para métodos algébricos. A geometria projetiva de Desargues caiu em esquecimento por quase dois séculos.
+A influência de Desargues sobre [Blaise Pascal](https://en.wikipedia.org/wiki/Blaise_Pascal), no entanto, é a evidência mais eloquente do peso intelectual da obra. Conforme o [MacTutor](https://mathshistory.st-andrews.ac.uk/Biographies/Pascal/), Pascal passou a admirar o trabalho de Desargues antes de completar 15 anos. A consequência direta é documentada pela [Encyclopedia.com](https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/jean-victor-poncelet): seguindo o pensamento de Desargues, o Pascal de 16 anos produziu, como meio de prova, um pequeno tratado sobre o que chamou de **Hexagrama Místico** — seu primeiro trabalho matemático sério, conhecido hoje como o **Teorema de Pascal**. Essa obra de 1640, portanto, é filha direta da geometria projetiva de Desargues.
+
+Paradoxalmente, foi a própria genialidade de Descartes que enterrou o trabalho de Desargues: a ascensão da geometria analítica desviou os matemáticos para métodos algébricos, e a abordagem puramente geométrica de Desargues pareceu obsoleta. A geometria projetiva caiu em esquecimento por quase dois séculos — apesar de ter produzido um dos teoremas mais elegantes do século XVII.
 
 ### Redescobrimento: Jean-Victor Poncelet (1788–1867)
 
-A geometria projetiva foi formalmente reconstituída como disciplina matemática autônoma por [Jean-Victor Poncelet](https://en.wikipedia.org/wiki/Jean-Victor_Poncelet), engenheiro militar e ex-aluno de Monge na École Polytechnique. O contexto é notável: Poncelet estava preso na Rússia durante a retirada napoleônica de 1812, sem livros. Reconstruindo a geometria de memória, desenvolveu as bases do que publicaria em 1822 como *Traité des propriétés projectives des figures*.
+[Jean-Victor Poncelet](https://en.wikipedia.org/wiki/Jean-Victor_Poncelet) nasceu em 1788 em Metz, França, filho ilegítimo de um rico proprietário de terras. Conforme o [MacTutor](https://mathshistory.st-andrews.ac.uk/Biographies/Poncelet/), foi criado com afeto por uma família adotiva até os 15 anos, quando retornou a Metz. Em 1807 ingressou na [École Polytechnique](https://en.wikipedia.org/wiki/Polytechnique), onde teve como professores diretos Gaspard Monge, Lazare Carnot e Charles Brianchon — a nata da matemática francesa da época. Formou-se em 1810 e seguiu carreira militar como engenheiro.
 
-Conforme registrado pela [Encyclopedia.com](https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/projective-geometry-leads-unification-all-geometries), esta obra preparou o terreno para a reformulação e unificação de toda a geometria, que culminaria no trabalho de [Felix Klein](https://en.wikipedia.org/wiki/Felix_Klein) em 1872. A própria [Britannica](https://www.britannica.com/biography/Girard-Desargues) documenta que Poncelet, ao desenvolver a geometria projetiva, reconheceu ter sido precedido por Desargues em certos aspectos — embora não tenha sido diretamente inspirado por ele.
+O episódio que definiria sua contribuição à matemática veio em 1812. Como tenente de engenheiros na campanha russa de Napoleão, Poncelet participou ativamente dos combates — segundo o [MacTutor](https://mathshistory.st-andrews.ac.uk/Biographies/Poncelet/), chegou a construir pontes sobre o rio Dnieper sob fogo inimigo. Após a derrota francesa, foi dado como morto na batalha de Krasnoi e capturado pelos russos. Interrogado pelo General Miloradovich, não revelou informações. Foi confinado como prisioneiro de guerra em Saratov, às margens do Volga.
 
-O [MacTutor](https://mathshistory.st-andrews.ac.uk/Biographies/Desargues/) aponta ainda o elo entre as duas disciplinas: **quando a geometria projetiva foi reinventada pelos alunos de Monge, o ponto de partida foi a geometria descritiva** — técnica que tem muito em comum com perspectiva.
+Foi lá, entre 1813 e 1814, sem livros, reconstruindo a geometria da memória dos ensinamentos de Monge, que Poncelet desenvolveu as bases da geometria projetiva moderna. Conforme o [SciHi Blog](http://scihi.org/jean-victor-poncelet/), os cadernos que produziu nesse período — os *Cahiers de Saratov* — foram a semente do que publicaria oito anos depois. Libertado após o Tratado de Paris em 1814, retornou à França e em 1822 publicou o *Traité des propriétés projectives des figures* — considerado pela [Springer](https://link.springer.com/chapter/10.1007/978-3-031-72585-2_8) o marco do nascimento da geometria projetiva como disciplina autônoma.
+
+O *Traité* carregava dois princípios novos que ampliaram decisivamente o escopo da geometria projetiva: o **princípio da dualidade** (pontos e retas são intercambiáveis em qualquer teorema verdadeiro) e o **princípio da continuidade** (propriedades válidas para configurações reais estendem-se a configurações imaginárias). Conforme a [Britannica](https://www.britannica.com/biography/Jean-Victor-Poncelet), seu desenvolvimento das linhas polares associadas a seções cônicas levou ao princípio de dualidade e a uma disputa de prioridade com o matemático alemão Julius Plücker.
+
+A recepção inicial foi fria. Conforme a [Encyclopedia.com](https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/jean-victor-poncelet), os colegas de Poncelet foram extremamente relutantes em aceitar suas ideias — foram matemáticos alemães, entre eles Karl von Staudt, Felix Klein e Georg Cantor, que reconheceram e desenvolveram o trabalho. Decepcionado, Poncelet acabou retornando à engenharia aplicada, onde propôs o design da primeira turbina de fluxo interno (1826) e tornou-se professor de mecânica. Em 1848 foi nomeado Comandante Geral da École Polytechnique — a mesma escola onde havia sido aluno de Monge. Morreu em Paris em 1867, segundo a [Encyclopedia.com](https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/jean-victor-poncelet), sem o reconhecimento que merecia por suas contribuições à geometria.
+
+O [MacTutor](https://mathshistory.st-andrews.ac.uk/Biographies/Desargues/) aponta ainda o elo entre as duas disciplinas: **quando a geometria projetiva foi reinventada pelos alunos de Monge, o ponto de partida foi a geometria descritiva** — técnica que tem muito em comum com perspectiva. A linhagem intelectual é direta: Desargues → Pascal → esquecimento → Monge → Poncelet → geometria projetiva moderna.
 
 ---
 
@@ -104,7 +112,69 @@ Há razões estruturais para a confusão, além da equivalência terminológica 
 
 ---
 
-## 6. Referências
+## 6. Aplicações da Geometria Projetiva na Computação
+
+A geometria projetiva não é apenas história da matemática — é a **estrutura matemática viva** que sustenta computação gráfica, visão computacional e criptografia moderna. Poncelet não poderia ter previsto que os conceitos desenvolvidos em cativeiro no Volga seriam executados bilhões de vezes por segundo em GPUs e smartphones do século XXI.
+
+---
+
+### 6.1 Computação Gráfica 3D
+
+Conforme documentado pela [Springer](https://link.springer.com/chapter/10.1007/978-3-642-84060-9_2), a geometria projetiva é a ferramenta matemática fundamental para visualizar objetos tridimensionais em superfícies bidimensionais — e por isso é o fundamento matemático do pipeline de saída de **todos os pacotes de computação gráfica 3D**, esteja isso explicitamente declarado ou não.
+
+O elo operacional é a [projeção em perspectiva](https://en.wikipedia.org/wiki/3D_projection): quando uma câmera virtual mapeia uma cena 3D para uma tela 2D, a operação é uma transformação projetiva. Em coordenadas cartesianas, isso exige uma divisão não-linear por `z` — a chamada **divisão de perspectiva** — que não pode ser expressa como multiplicação de matrizes. Em [coordenadas homogêneas](https://en.wikipedia.org/wiki/Homogeneous_coordinates), essa relação não-linear em três dimensões torna-se uma **relação linear em quatro dimensões**, tratável pela mesma multiplicação de matrizes 4×4 usada para todas as outras transformações.
+
+Conforme a [Wikipedia — Homogeneous Coordinates](https://en.wikipedia.org/wiki/Homogeneous_coordinates), as GPUs modernas com OpenGL e Direct3D exploram exatamente isso: implementam o vertex shader de forma eficiente usando **processadores vetoriais com registradores de 4 elementos** — os quatro componentes `(x, y, z, w)` das coordenadas homogêneas. Toda translação, rotação, escala e projeção em perspectiva de um jogo ou aplicação 3D passam por esse mecanismo projetivo.
+
+O pesquisador L. G. Roberts, pioneiro da computação gráfica no MIT (1965), já apontava que o uso de coordenadas homogêneas é **extremamente importante para manter a simplicidade dos resultados**, ainda que seu propósito original fosse permitir perspectiva — conforme registrado em documentação de referência sobre o tema.
+
+---
+
+### 6.2 Visão Computacional
+
+Na [visão computacional](https://en.wikipedia.org/wiki/Computer_vision), a geometria projetiva é igualmente central: toda câmera é um dispositivo que realiza uma projeção projetiva — mapeia o mundo 3D em uma imagem 2D. Modelar essa projeção com precisão é o pré-requisito para qualquer tarefa de reconstrução 3D, reconhecimento ou navegação autônoma.
+
+**Homografia**
+
+A [homografia](https://visionbook.mit.edu/homography.html) é uma transformação projetiva entre dois planos — representada por uma matriz 3×3 em coordenadas homogêneas. Conforme o livro *Foundations of Computer Vision* (MIT), ela tem aplicações diretas em panoramas fotográficos (stitching de imagens capturadas por câmera rotacionando), correção de perspectiva, realidade aumentada e estimativa de pose de câmera.
+
+**Geometria Epipolar**
+
+Quando duas câmeras observam a mesma cena, a relação geométrica entre as duas imagens é descrita pela [geometria epipolar](https://www.sciencedirect.com/topics/computer-science/epipolar-geometry) — um dos resultados mais elegantes da geometria projetiva aplicada. Conforme o LearnOpenCV, dado um ponto em uma imagem, a geometria epipolar reduz o espaço de busca do ponto correspondente na segunda imagem **de uma região 2D para uma única linha** — a linha epipolar. Essa redução de dimensionalidade é a base de sistemas de visão estéreo, câmeras de profundidade e reconstrução 3D.
+
+A geometria epipolar é encapsulada pela **matriz fundamental** (para câmeras não calibradas) ou pela **matriz essencial** (para câmeras calibradas) — ambas matrizes projetivas 3×3. Conforme a [ScienceDirect — Epipolar Geometry](https://www.sciencedirect.com/topics/computer-science/epipolar-geometry), a matriz fundamental representa o movimento projetivo entre duas câmeras de perspectiva não calibradas.
+
+**SLAM e Navegação Autônoma**
+
+Localização e mapeamento simultâneos ([SLAM](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping)) — tecnologia usada em robôs, veículos autônomos e drones — depende diretamente de homografias e geometria epipolar para estimar a posição da câmera e reconstruir o ambiente em tempo real a partir de sequências de imagens.
+
+---
+
+### 6.3 Criptografia
+
+A terceira grande área de aplicação é menos óbvia mas igualmente profunda. Conforme a [Wikipedia — Homogeneous Coordinates](https://en.wikipedia.org/wiki/Homogeneous_coordinates), as coordenadas homogêneas também são usadas em **algoritmos fundamentais de criptografia de curvas elípticas**.
+
+Uma [curva elíptica](https://en.wikipedia.org/wiki/Elliptic_curve) é definida formalmente como uma curva algébrica projetiva suave de gênero 1 — ou seja, ela é naturalmente um objeto da geometria projetiva. Na forma projetiva de Weierstrass, a equação da curva é expressa em coordenadas homogêneas `(X:Y:Z)`, e a curva contém exatamente um **ponto no infinito** `(0:1:0)`, que serve como elemento neutro da operação de grupo.
+
+A razão pela qual isso importa na criptografia é prática: conforme documentado em [nayuki.io](https://www.nayuki.io/page/elliptic-curve-point-addition-in-projective-coordinates), operações em coordenadas afins exigem **divisões de campo** — operações caras, especialmente em campos finitos sobre primos grandes. Ao trabalhar em **coordenadas projetivas** (ou Jacobianas), todas as divisões são diferidas: o denominador é acumulado na coordenada `Z`, e **uma única divisão** é realizada apenas ao final de toda a computação. Isso pode representar dezenas ou centenas de divisões evitadas em uma única operação de multiplicação escalar.
+
+Essa otimização projetiva é o que torna a criptografia de curvas elípticas (ECC) eficiente o suficiente para rodar em smartcards, chips de IoT e smartphones — dispositivos que protegem conexões HTTPS, carteiras de Bitcoin e documentos de identidade digital.
+
+| Aplicação | Conceito projetivo central | Onde aparece |
+|---|---|---|
+| Renderização 3D (OpenGL/DirectX) | Coordenadas homogêneas, projeção perspectiva | Vertex shader em toda GPU |
+| Panoramas / AR | Homografia (matriz 3×3) | Google Maps, Instagram, câmeras |
+| Visão estéreo / câmeras de profundidade | Geometria epipolar, matriz fundamental | Robótica, iPhone, PlayStation |
+| SLAM | Homografia + geometria epipolar | Carros autônomos, drones |
+| Criptografia ECC | Coordenadas projetivas/Jacobianas | HTTPS, Bitcoin, smartcards |
+
+---
+
+A trajetória é notável: Desargues, arquiteto do século XVII, desenvolve uma geometria da perspectiva que cai em esquecimento. Poncelet a reconstrói como matemática pura em um campo de prisioneiros. Dois séculos depois, essa mesma estrutura matemática é executada em tempo real por bilhões de dispositivos — renderizando mundos virtuais, guiando robôs e protegendo comunicações digitais.
+
+---
+
+## 7. Referências
 
 - [Girard Desargues](https://en.wikipedia.org/wiki/Girard_Desargues) — Wikipedia
 - [Girard Desargues](https://www.britannica.com/biography/Girard-Desargues) — Britannica
@@ -117,4 +187,20 @@ Há razões estruturais para a confusão, além da equivalência terminológica 
 - [Projective Geometry Leads to the Unification of All Geometries](https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/projective-geometry-leads-unification-all-geometries) — Encyclopedia.com
 - [The Creation of Modern Geometry](https://www.maths.tcd.ie/pub/HistMath/People/Napoleonic/RouseBall/RB_ModGeom.html) — Trinity College Dublin
 - [Jean-Victor Poncelet](https://en.wikipedia.org/wiki/Jean-Victor_Poncelet) — Wikipedia
+- [Jean-Victor Poncelet](https://www.britannica.com/biography/Jean-Victor-Poncelet) — Britannica
+- [Jean-Victor Poncelet — Biography](https://mathshistory.st-andrews.ac.uk/Biographies/Poncelet/) — MacTutor, Universidade de St Andrews
+- [Jean-Victor Poncelet](https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/jean-victor-poncelet) — Encyclopedia.com
+- [Jean-Victor Poncelet](http://scihi.org/jean-victor-poncelet/) — SciHi Blog
+- [Poncelet — Projective Geometry](https://link.springer.com/chapter/10.1007/978-3-031-72585-2_8) — Springer Nature
+- [Blaise Pascal](https://en.wikipedia.org/wiki/Blaise_Pascal) — Wikipedia
+- [Blaise Pascal — Biography](https://mathshistory.st-andrews.ac.uk/Biographies/Pascal/) — MacTutor, Universidade de St Andrews
 - [Felix Klein](https://en.wikipedia.org/wiki/Felix_Klein) — Wikipedia
+- [Homogeneous Coordinates](https://en.wikipedia.org/wiki/Homogeneous_coordinates) — Wikipedia
+- [Projective Geometry and Computer Graphics](https://link.springer.com/chapter/10.1007/978-3-642-84060-9_2) — Springer
+- [Homographies — Foundations of Computer Vision](https://visionbook.mit.edu/homography.html) — MIT
+- [Homogeneous Coordinates — Foundations of Computer Vision](https://visionbook.mit.edu/homogeneous_coordinates.html) — MIT
+- [Epipolar Geometry](https://www.sciencedirect.com/topics/computer-science/epipolar-geometry) — ScienceDirect
+- [Introduction to Epipolar Geometry and Stereo Vision](https://learnopencv.com/introduction-to-epipolar-geometry-and-stereo-vision/) — LearnOpenCV
+- [Elliptic Curve](https://en.wikipedia.org/wiki/Elliptic_curve) — Wikipedia
+- [Elliptic Curve Point Addition in Projective Coordinates](https://www.nayuki.io/page/elliptic-curve-point-addition-in-projective-coordinates) — nayuki.io
+- [Simultaneous Localization and Mapping (SLAM)](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping) — Wikipedia
