@@ -8,11 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://255ribeiro.github.io/cadquery_basics/down_files/down_files.html">
+        <link rel="canonical" href="https://255ribeiro.github.io/cadquery_basics/conceitos/descritiva_vs_projetiva.html">
       
       
-        <link rel="prev" href="../conceitos/Resumo_GitHub_Copilot_Educacao_2026.html">
+        <link rel="prev" href="matrizes_de_transformacao.html">
       
+      
+        <link rel="next" href="Resumo_GitHub_Copilot_Educacao_2026.html">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -20,7 +22,7 @@
     
     
       
-        <title>Downloads - Python CadQuery para Arquitetos e Engenheiros</title>
+        <title>Geometria Descritiva vs. Projetiva - Python CadQuery para Arquitetos e Engenheiros</title>
       
     
     
@@ -74,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#download-de-materiais-de-aula" class="md-skip">
+        <a href="#geometria-descritiva-e-geometria-projetiva" class="md-skip">
           Skip to content
         </a>
       
@@ -110,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Downloads
+              Geometria Descritiva vs. Projetiva
             
           </span>
         </div>
@@ -529,17 +531,19 @@
       
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
           <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
@@ -553,7 +557,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             Apêndice
@@ -567,7 +571,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../conceitos/matrizes_de_transformacao.html" class="md-nav__link">
+      <a href="matrizes_de_transformacao.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -585,10 +589,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../conceitos/descritiva_vs_projetiva.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="descritiva_vs_projetiva.html" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -597,6 +610,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -609,7 +623,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../conceitos/Resumo_GitHub_Copilot_Educacao_2026.html" class="md-nav__link">
+      <a href="Resumo_GitHub_Copilot_Educacao_2026.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -634,19 +648,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="down_files.html" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../down_files/down_files.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -655,7 +660,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -681,11 +685,138 @@
   
 
 
-<h1 id="download-de-materiais-de-aula">Download de materiais de aula</h1>
-<p><a href="perfil_autocad.dwg">Arquivo dwg Autocad</a></p>
-<p><a href="perfil_autocad.dxf">Arquivo dxf Autocad R2013</a></p>
-<p><a href="perfil_rhino.3dm">Arquivo 3dm Rhino 6</a></p>
-<p><a href="perfil_step_214.step">Aquivo step 214 Rhino 6</a></p>
+<h1 id="geometria-descritiva-e-geometria-projetiva">Geometria Descritiva e Geometria Projetiva</h1>
+<h2 id="desambiguacao-e-historia">Desambiguação e História</h2>
+<blockquote>
+<p>Documento de referência para cursos de arquitetura e engenharia.<br />
+Todas as afirmações são acompanhadas de fontes primárias verificáveis.</p>
+</blockquote>
+<hr />
+<h2 id="1-a-confusao">1. A Confusão</h2>
+<p>Nos currículos de arquitetura e engenharia, os termos <strong>geometria descritiva</strong> e <strong>geometria projetiva</strong> são frequentemente tratados como sinônimos ou como nomes alternativos para a mesma disciplina. A confusão tem raiz histórica documentada: conforme registrado no <a href="https://mathworld.wolfram.com/ProjectiveGeometry.html">MathWorld — Projective Geometry</a>, em literatura mais antiga a geometria projetiva chegou a ser chamada de <em>"higher geometry"</em>, <em>"geometry of position"</em> ou simplesmente <em>"descriptive geometry"</em> (Cremona, 1960, pp. v-vi).</p>
+<p>Mas são disciplinas distintas, com origens, objetos de estudo e métodos diferentes. Entender essa distinção é fundamental para qualquer estudante que trabalhe com representação espacial, modelagem 3D ou geometria computacional.</p>
+<hr />
+<h2 id="2-geometria-descritiva">2. Geometria Descritiva</h2>
+<h3 id="definicao">Definição</h3>
+<p>A <a href="https://mathworld.wolfram.com/DescriptiveGeometry.html">geometria descritiva</a> é um <strong>método de representação gráfica</strong>: um conjunto de técnicas para representar objetos tridimensionais em superfícies bidimensionais através de <a href="https://mathworld.wolfram.com/OrthographicProjection.html">projeções ortogonais</a> sobre planos perpendiculares entre si. Seu objeto não é a teoria matemática da projeção — é a <strong>técnica construtiva</strong>.</p>
+<h3 id="origem-gaspard-monge-17461818">Origem: Gaspard Monge (1746–1818)</h3>
+<p>A geometria descritiva foi sistematizada por <a href="https://en.wikipedia.org/wiki/Gaspard_Monge">Gaspard Monge</a>, matemático francês considerado seu fundador. Monge desenvolveu o método ainda jovem, como professor na academia militar de Mézières, ao resolver graficamente um problema de posicionamento de fortalezas que, pelos métodos aritméticos da época, exigia cálculos extensos. O método foi tão eficaz que <a href="https://www.maths.tcd.ie/pub/HistMath/People/Napoleonic/RouseBall/RB_ModGeom.html">o comandante inicialmente recusou recebê-lo, por ser rápido demais — e depois de verificado, foi classificado como segredo militar</a>.</p>
+<p>A formalização pública veio com a obra <em>Géométrie Descriptive</em> (1798), que segundo a <a href="https://www.britannica.com/biography/Gaspard-Monge-comte-de-Peluse">Britannica</a> provou ser útil não apenas a matemáticos, mas também a artistas, arquitetos, engenheiros militares, carpinteiros e entalhadores de pedra.</p>
+<h3 id="o-que-ela-estuda">O que ela estuda</h3>
+<ul>
+<li>Representação de sólidos 3D em dois planos ortogonais (planta e elevação)</li>
+<li>Determinação de formas e propriedades a partir de suas projeções</li>
+<li>Técnicas de estereotomia (corte de pedras para construção)</li>
+<li>Interseções, desenvolvimentos e planificações de superfícies</li>
+</ul>
+<h3 id="vinculo-com-a-pratica-construtiva">Vínculo com a prática construtiva</h3>
+<p>Um aspecto fundamental, apontado em <a href="https://www.histoireconstruction.fr/wp-content/uploads/2015/09/Sakarovitch_2009_Gaspard-Monge.pdf">estudo acadêmico sobre Monge</a>, é que <strong>ao contrário da geometria projetiva, a descritiva permanece ligada à técnica construtiva da qual nasceu</strong>. Monge desenvolvia teoria de corte de pedras com base em sua teoria geométrica — a geometria era instrumento de construção, não fim em si mesma.</p>
+<hr />
+<h2 id="3-geometria-projetiva">3. Geometria Projetiva</h2>
+<h3 id="definicao_1">Definição</h3>
+<p>A <a href="https://mathworld.wolfram.com/ProjectiveGeometry.html">geometria projetiva</a> é um <strong>ramo matemático autônomo</strong> que estuda as propriedades de figuras geométricas que permanecem invariantes sob <a href="https://mathworld.wolfram.com/ProjectiveTransformation.html">transformações projetivas</a> — transformações que incluem perspectiva central, projeção cônica e mudanças de ponto de vista. Nela, conceitos euclidianos como distância e ângulo perdem relevância; o que importa é a <strong>estrutura de incidência</strong>: quais pontos pertencem a quais retas, quais retas se encontram em quais pontos.</p>
+<p>Uma de suas contribuições mais radicais é a introdução dos <a href="https://mathworld.wolfram.com/PointatInfinity.html">pontos no infinito</a>: na geometria projetiva, retas paralelas <em>se encontram</em> — em um ponto ideal no infinito. Isso unifica casos que na geometria euclidiana precisam ser tratados separadamente.</p>
+<h3 id="origem-girard-desargues-15911661-um-arquiteto">Origem: Girard Desargues (1591–1661) — um arquiteto</h3>
+<p>Aqui está o fato que poucos currículos mencionam: <strong>o fundador da geometria projetiva era arquiteto e engenheiro</strong>.</p>
+<p><a href="https://en.wikipedia.org/wiki/Girard_Desargues">Girard Desargues</a> era um matemático e engenheiro francês, nascido em Lyon em 1591. Conforme documentado pelo <a href="https://mathshistory.st-andrews.ac.uk/Biographies/Desargues/">MacTutor History of Mathematics</a> (Universidade de St Andrews), Desargues é reconhecido como um dos fundadores da geometria projetiva. Segundo a <a href="https://www.britannica.com/biography/Girard-Desargues">Britannica</a>, presume-se que trabalhou como engenheiro até dedicar-se à arquitetura por volta de 1645, projetando mansões e edificações em Paris e Lyon.</p>
+<p>Seu interesse pela geometria nasceu diretamente de problemas práticos de perspectiva em arquitetura e arte. Conforme o <a href="https://mathshistory.st-andrews.ac.uk/Biographies/Desargues/">MacTutor</a>:</p>
+<blockquote>
+<p><em>"É muito provável que tenha sido de seu trabalho com perspectiva e assuntos relacionados que as novas ideias de Desargues surgiram."</em></p>
+</blockquote>
+<p>A obra fundante é o <em>Brouillon project d'une atteinte aux événements des rencontres d'un cône avec un plan</em> (1639) — em português: <em>Rascunho de um ensaio sobre os resultados de tomar seções planas de um cone</em>. Conforme a <a href="https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/girard-desargues-and-projective-geometry">Encyclopedia.com</a>, nessa obra Desargues estabeleceu os princípios da geometria projetiva como alternativa à geometria euclidiana tradicional.</p>
+<h3 id="o-eclipse-de-200-anos">O eclipse de 200 anos</h3>
+<p>O destino inicial da obra de Desargues é um dos episódios mais curiosos da história da matemática. Apenas 50 cópias do <em>Brouillon project</em> foram impressas. A obra era notoriamente difícil: Desargues introduziu mais de 70 novos termos, a maioria baseada em referências botânicas obscuras — dos quais apenas <em>involução</em> sobreviveu ao uso corrente. Conforme a <a href="https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/girard-desargues-and-projective-geometry">Encyclopedia.com</a>, Blaise Pascal foi um dos poucos capazes de compreendê-la.</p>
+<p>Além da dificuldade, a ascensão da geometria analítica de Descartes desviou a atenção dos matemáticos para métodos algébricos. A geometria projetiva de Desargues caiu em esquecimento por quase dois séculos.</p>
+<h3 id="redescobrimento-jean-victor-poncelet-17881867">Redescobrimento: Jean-Victor Poncelet (1788–1867)</h3>
+<p>A geometria projetiva foi formalmente reconstituída como disciplina matemática autônoma por <a href="https://en.wikipedia.org/wiki/Jean-Victor_Poncelet">Jean-Victor Poncelet</a>, engenheiro militar e ex-aluno de Monge na École Polytechnique. O contexto é notável: Poncelet estava preso na Rússia durante a retirada napoleônica de 1812, sem livros. Reconstruindo a geometria de memória, desenvolveu as bases do que publicaria em 1822 como <em>Traité des propriétés projectives des figures</em>.</p>
+<p>Conforme registrado pela <a href="https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/projective-geometry-leads-unification-all-geometries">Encyclopedia.com</a>, esta obra preparou o terreno para a reformulação e unificação de toda a geometria, que culminaria no trabalho de <a href="https://en.wikipedia.org/wiki/Felix_Klein">Felix Klein</a> em 1872. A própria <a href="https://www.britannica.com/biography/Girard-Desargues">Britannica</a> documenta que Poncelet, ao desenvolver a geometria projetiva, reconheceu ter sido precedido por Desargues em certos aspectos — embora não tenha sido diretamente inspirado por ele.</p>
+<p>O <a href="https://mathshistory.st-andrews.ac.uk/Biographies/Desargues/">MacTutor</a> aponta ainda o elo entre as duas disciplinas: <strong>quando a geometria projetiva foi reinventada pelos alunos de Monge, o ponto de partida foi a geometria descritiva</strong> — técnica que tem muito em comum com perspectiva.</p>
+<hr />
+<h2 id="4-quadro-comparativo">4. Quadro Comparativo</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Geometria Descritiva</th>
+<th>Geometria Projetiva</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Natureza</strong></td>
+<td>Método de representação</td>
+<td>Ramo matemático teórico</td>
+</tr>
+<tr>
+<td><strong>Fundador</strong></td>
+<td>Gaspard Monge (1798)</td>
+<td>Girard Desargues (1639) / Poncelet (1822)</td>
+</tr>
+<tr>
+<td><strong>Formação do fundador</strong></td>
+<td>Matemático / engenheiro militar</td>
+<td>Arquiteto e engenheiro / engenheiro militar</td>
+</tr>
+<tr>
+<td><strong>Objeto</strong></td>
+<td>Representar 3D em 2D por projeção ortogonal</td>
+<td>Estudar invariantes sob transformações projetivas</td>
+</tr>
+<tr>
+<td><strong>Distância e ângulo</strong></td>
+<td>Preservados (projeção ortogonal)</td>
+<td>Irrelevantes</td>
+</tr>
+<tr>
+<td><strong>Paralelas</strong></td>
+<td>Permanecem paralelas</td>
+<td>Encontram-se no infinito</td>
+</tr>
+<tr>
+<td><strong>Vínculo com prática</strong></td>
+<td>Forte — nasce da estereotomia</td>
+<td>Rompe com a prática gráfica</td>
+</tr>
+<tr>
+<td><strong>Usado em</strong></td>
+<td>Desenho técnico, plantas, cortes</td>
+<td>Geometria computacional, visão computacional, perspectiva teórica</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="5-por-que-a-confusao-persiste">5. Por que a Confusão Persiste</h2>
+<p>Há razões estruturais para a confusão, além da equivalência terminológica histórica:</p>
+<ol>
+<li>
+<p><strong>Ambas usam projeção como conceito central</strong> — mas a descritiva usa projeção <em>ortogonal</em> como ferramenta de representação, enquanto a projetiva usa projeção <em>central</em> como objeto de estudo matemático.</p>
+</li>
+<li>
+<p><strong>A descritiva tem fundamento projetivo</strong> — as propriedades que a geometria descritiva explora são casos particulares de propriedades projetivas mais gerais. Isso levou gerações de professores a tratar as duas como a mesma coisa.</p>
+</li>
+<li>
+<p><strong>A nomenclatura em inglês</strong> — conforme o <a href="https://mathworld.wolfram.com/ProjectiveGeometry.html">MathWorld</a>, em literatura mais antiga <em>projective geometry</em> era chamada de <em>descriptive geometry</em>. Esse uso histórico contaminou traduções e currículos.</p>
+</li>
+<li>
+<p><strong>O redescobrimento de Poncelet partiu da descritiva</strong> — os alunos de Monge que reconstruíram a geometria projetiva vieram do ambiente intelectual da geometria descritiva, tornando as fronteiras ainda mais porosas nos textos do século XIX.</p>
+</li>
+</ol>
+<hr />
+<h2 id="6-referencias">6. Referências</h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Girard_Desargues">Girard Desargues</a> — Wikipedia</li>
+<li><a href="https://www.britannica.com/biography/Girard-Desargues">Girard Desargues</a> — Britannica</li>
+<li><a href="https://mathshistory.st-andrews.ac.uk/Biographies/Desargues/">Girard Desargues — Biography</a> — MacTutor, Universidade de St Andrews</li>
+<li><a href="https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/girard-desargues-and-projective-geometry">Girard Desargues and Projective Geometry</a> — Encyclopedia.com</li>
+<li><a href="https://www.britannica.com/biography/Gaspard-Monge-comte-de-Peluse">Gaspard Monge</a> — Britannica</li>
+<li><a href="https://www.ebsco.com/research-starters/history/gaspard-monge">Gaspard Monge</a> — EBSCO Research Starters</li>
+<li><a href="https://www.histoireconstruction.fr/wp-content/uploads/2015/09/Sakarovitch_2009_Gaspard-Monge.pdf">Gaspard Monge — Founder of Constructive Geometry</a> — Sakarovitch, 2009</li>
+<li><a href="https://mathworld.wolfram.com/ProjectiveGeometry.html">Projective Geometry</a> — MathWorld (Wolfram)</li>
+<li><a href="https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/projective-geometry-leads-unification-all-geometries">Projective Geometry Leads to the Unification of All Geometries</a> — Encyclopedia.com</li>
+<li><a href="https://www.maths.tcd.ie/pub/HistMath/People/Napoleonic/RouseBall/RB_ModGeom.html">The Creation of Modern Geometry</a> — Trinity College Dublin</li>
+<li><a href="https://en.wikipedia.org/wiki/Jean-Victor_Poncelet">Jean-Victor Poncelet</a> — Wikipedia</li>
+<li><a href="https://en.wikipedia.org/wiki/Felix_Klein">Felix Klein</a> — Wikipedia</li>
+</ul>
 
 
 
