@@ -46,8 +46,9 @@ nav:
     - Exercício multi pav perfil: ./tuto_colab/cadquery_multiplos_pav_perfil.ipynb
     - Exercício pavimentos deslocados: ./tuto_colab/multi_pav_cq_ramdom_disp_resolvido.ipynb
     - Criando volumes com o loft: ./tuto_colab/multi_pav_loft.ipynb
-    - Exportação IFC: ./tuto_colab/step_to_ifc.ipynb
-    - Exportação IFC Mesh: ./tuto_colab/step_to_ifc_mesh.ipynb
+    - Exportação IFC:
+      - Exportação IFC: ./tuto_colab/step_to_ifc.ipynb
+      - Exportação IFC Mesh: ./tuto_colab/step_to_ifc_mesh.ipynb
 
   - Vscode:
     - intro: ./tuto_vscode/cadquery_basic_vscode.ipynb
