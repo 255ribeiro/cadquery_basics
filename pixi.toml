@@ -8,6 +8,7 @@ version = "0.1.0"
 [tasks]
 mkup ={ cmd = "mkdocs gh-deploy" }
 mksrv ={ cmd = "mkdocs serve" }
+pytonb = {cmd = "jupytext --to notebook "}
 
 [dependencies]
 python = "3.12.*"
@@ -20,7 +21,9 @@ mkdocs = "==1.5.3"
 mkdocs-jupyter = ">=0.24.6,<0.25"
 pymdown-extensions = ">=10.21,<11"
 mkdocs-material = ">=9.5.20,<10"
-
+shapely = ">=2.1.2,<3"
+ifcopenshell = ">=0.8.4,<0.9"
+pythonocc-core = ">=7.7,<8"
 
 
 [target.linux-64.dependencies]
@@ -31,9 +34,10 @@ cadquery = ">=2.3.0, <3"
 jupyter-cadquery = ">=1.0.0, <2"
 ocp-vscode = "==3.1.2"
 cadquery-simpleviewer = ">=0.2.3"
-# mkdocs = ">=1.5.1, <1.6.1"
-# mkdocs-jupyter = "*"
-# pymdown-extensions = "*"
+jupytext = "*"
+
+
+
 
 
 

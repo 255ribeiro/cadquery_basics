@@ -6,6 +6,98 @@
 
 ---
 
+## Prefácio: A Geometria da Visão — Da Intuição Antiga à Teoria Moderna
+
+### A questão original
+
+A geometria projetiva não nasceu em uma universidade nem em um tratado de matemática pura. Ela nasceu de uma pergunta prática, feita por artistas e arquitetos: **como representar fielmente o espaço tridimensional em uma superfície plana?**
+
+Essa questão é, em essência, uma questão de [projeção geométrica](https://mathworld.wolfram.com/Projection.html): dado um conjunto de pontos no espaço, e dado um ponto de vista fixo, como mapeá-los sobre um plano? O que se preserva nesse mapeamento? O que se perde? São exatamente essas as perguntas que definem a geometria projetiva como disciplina.
+
+A palavra *perspectiva* vem do latim *perspicere* — "ver através". Conforme documentado no arXiv em *[The Mathematics of Painting: the Birth of Projective Geometry in the Italian Renaissance](https://arxiv.org/abs/2210.13295)*, o termo latino *perspectiva* foi escolhido pelo filósofo romano Boécio (c. 475–526) como tradução do grego *Optiké* — o título que [Euclides](https://mathworld.wolfram.com/Euclid.html) deu à sua obra sobre a geometria da visão. A raiz da projetiva, portanto, é tão antiga quanto a geometria grega.
+
+---
+
+### Antiguidade: intuição sem formalização
+
+Gregos e romanos já demonstravam percepção intuitiva de profundidade nas artes. Há evidências de que gregos e romanos haviam descoberto uma forma de perspectiva linear na arte — como na Coluna de Trajano e nas vilas pintadas de Pompeia — mas durante a Idade Média essa habilidade se perdeu na Europa.
+
+A perda não foi acidental — foi cultural. O foco medieval voltou-se para a representação simbólica e hierárquica, não para a ilusão de espaço. A profundidade foi sacrificada em favor da significância teológica. Por cerca de mil anos, a Europa pintou figuras achatadas, sem horizonte, sem ponto de fuga.
+
+---
+
+### Filippo Brunelleschi (1377–1446): a demonstração prática
+
+O arquiteto florentino [Filippo Brunelleschi](https://en.wikipedia.org/wiki/Filippo_Brunelleschi) é o ponto de inflexão. A perspectiva linear é considerada ter sido criada por volta de 1415 pelo arquiteto renascentista italiano Filippo Brunelleschi, e posteriormente documentada pelo arquiteto e escritor Leon Battista Alberti em 1435 em *De pictura* (*Sobre a Pintura*).
+
+O método de Brunelleschi não foi uma teoria — foi uma **demonstração experimental**. Por volta de 1420–1425, Brunelleschi criou e demonstrou um método para produzir pinturas nas quais ortogonais convergem para um único ponto de fuga, dando uma ilusão matematicamente coerente de profundidade numa superfície plana. O experimento mais documentado usava um painel pintado do Batistério de Florença: o observador olhava através de um orifício no painel para um espelho que refletia a pintura — o alinhamento entre a imagem pintada e o edifício real provava que a construção de perspectiva com ponto único reproduzia a realidade óptica.
+
+O que Brunelleschi havia compreendido intuitivamente é um princípio projetivo fundamental: ele estudou sistematicamente por que e como objetos, edifícios e paisagens mudavam de forma e como as linhas pareciam convergir quando vistas de longe ou de diferentes ângulos.
+
+Conforme a [Britannica — Filippo Brunelleschi](https://www.britannica.com/biography/Filippo-Brunelleschi), diz-se que ele redescobriu os princípios da perspectiva linear, um artifício artístico que cria a ilusão de espaço representando linhas paralelas convergindo. Seus princípios permitiram a contemporâneos produzirem obras extraordinariamente realistas — e, não coincidentemente, foram desenvolvidos no mesmo contexto em que Brunelleschi projetava a cúpula da Catedral de Santa Maria del Fiore, o maior desafio de engenharia estrutural da época.
+
+---
+
+### Leon Battista Alberti (1404–1472): da prática à teoria
+
+Se Brunelleschi foi o experimentador, [Leon Battista Alberti](https://en.wikipedia.org/wiki/Leon_Battista_Alberti) foi o teórico. Foi Alberti quem, em 1435, escreveu *Della pittura*, na qual argumentava que um pintor deve emular a natureza, e que isso exigia o domínio da matemática e da perspectiva. Foi através de Alberti que a técnica matemática da perspectiva se difundiu de Florença para outras escolas italianas.
+
+A postura de Alberti em relação à matemática está declarada no próprio início do tratado. Conforme a [Wikipedia — Leon Battista Alberti](https://en.wikipedia.org/wiki/Leon_Battista_Alberti), Alberti abre a *Della pittura* com as seguintes palavras dedicadas a Brunelleschi:
+
+> *"Para tornar clara minha exposição ao escrever este breve comentário sobre pintura, tomarei primeiro dos matemáticos aquelas coisas com que meu assunto se ocupa."*
+
+Mas a contribuição de Alberti vai além da codificação do método de Brunelleschi. Conforme documentado no arXiv *[The Mathematics of Painting](https://arxiv.org/abs/2210.13295)*, Alberti introduziu formalmente o **plano da imagem** como superfície de projeção — e, ao fazê-lo, levantou uma pergunta que é o coração da geometria projetiva: que propriedades de uma projeção são invariantes sob uma mudança de perspectiva? Em outras palavras, se dois artistas produzem uma pintura do mesmo objeto de perspectivas diferentes, quais propriedades das duas pinturas serão iguais? Em matemática, o estudo dessas propriedades invariantes é conhecido como geometria projetiva.
+
+Alberti não respondeu essa pergunta — mas foi o primeiro a formulá-la com precisão. Na *Della pittura*, Alberti ensinou que um pintor deve imaginar um observador fixo em um único ponto e então desenhar objetos de modo que todas as linhas paralelas convergem para um ponto de fuga no horizonte. Esse método geométrico — extraído da óptica clássica — permite que artistas criem uma ilusão convincente de profundidade.
+
+---
+
+### O intervalo: perspectiva sem teoria (1435–1636)
+
+Entre Alberti e Desargues, a perspectiva se desenvolveu como técnica aplicada — não como teoria matemática. Piero della Francesca (c. 1470), Leonardo da Vinci (c. 1500–1518) e Albrecht Dürer (1525) aprofundaram o método construtivo, mas nenhum deles levantou as questões abstratas de invariância que Alberti havia sugerido.
+
+Conforme registrado no [Essential Vermeer — History of Perspective](https://www.essentialvermeer.com/technique/perspective/history.html), as considerações sobre perspectiva de Alberti "eram baseadas no tipo mais simples de engenhosidade prática [...] plenas de relações matemáticas implícitas, mas os homens que as usavam contentavam-se com elas como artifícios simples que funcionavam." A análise matemática do problema da perspectiva — e da geometria especial que estava implícita no método de Alberti — somente seria empreendida dois séculos depois, por Desargues.
+
+---
+
+### Girard Desargues (1591–1661): a abstração final
+
+É aqui que o círculo se fecha. Conforme documentado pelo [MacTutor — Mathematics and Art](https://mathshistory.st-andrews.ac.uk/HistTopics/Art/) (Universidade de St Andrews), em 1636 Desargues escreveu um tratado sobre perspectiva — e três anos depois, em 1639, o *Brouillon project*, onde generalizou esses princípios em uma teoria matemática autônoma. O termo moderno "ponto no infinito" aparece pela primeira vez nesse tratado, e feixes de retas são introduzidos, embora esse nome não seja usado. Nesse tratado, Desargues demonstra ter compreendido completamente a conexão entre cônicas e perspectiva.
+
+O salto conceitual de Desargues é precisamente o que conecta os arquitetos do Renascimento à geometria moderna: conforme o [Glass-Bead — The Perspectival Eye](https://www.glass-bead.org/research-platform/the-perspectival-eye/), Desargues "formulou a noção crucial do 'ponto no infinito'" e postulou que todas as retas paralelas em um plano projetivo se encontram em um ponto no infinito — exatamente como ocorre no ponto de fuga de uma imagem em perspectiva central, mas agora expresso como o axioma fundador de uma matemática generalizada da projeção.
+
+A linhagem intelectual é direta e documentável:
+
+```
+Euclides — Óptica (c. 300 a.C.)
+Geometria da visão como problema matemático
+    │
+    │ ~1700 anos — intuição prática sem formalização
+    ▼
+Brunelleschi (c. 1415–1420)
+Demonstração experimental do ponto de fuga único
+Arquiteto e engenheiro — Florença
+    │
+    │ influência direta
+    ▼
+Alberti — Della pittura (1435)
+Primeira codificação matemática da perspectiva
+Formula a questão dos invariantes projetivos
+Arquiteto e humanista — Florença
+    │
+    │ 200 anos de perspectiva como técnica aplicada
+    │ (Piero della Francesca, Leonardo, Dürer)
+    ▼
+Desargues — Brouillon project (1639)
+Responde a questão de Alberti: estuda os invariantes formalmente
+Funda a geometria projetiva como disciplina matemática
+Arquiteto e engenheiro — Lyon
+```
+
+O fato de que Brunelleschi, Alberti e Desargues eram todos arquitetos ou engenheiros não é coincidência. A geometria projetiva nasceu de um problema de representação do espaço construído — e foram os profissionais que manipulavam esse espaço diariamente que sentiram a necessidade de uma teoria à altura da prática.
+
+---
+
 ## 1. A Confusão
 
 Nos currículos de arquitetura e engenharia, os termos **geometria descritiva** e **geometria projetiva** são frequentemente tratados como sinônimos ou como nomes alternativos para a mesma disciplina. A confusão tem raiz histórica documentada: conforme registrado no [MathWorld — Projective Geometry](https://mathworld.wolfram.com/ProjectiveGeometry.html), em literatura mais antiga a geometria projetiva chegou a ser chamada de *"higher geometry"*, *"geometry of position"* ou simplesmente *"descriptive geometry"* (Cremona, 1960, pp. v-vi).
@@ -215,7 +307,18 @@ A trajetória é notável: Desargues, arquiteto do século XVII, desenvolve uma 
 
 ## 7. Referências
 
-- [Girard Desargues](https://en.wikipedia.org/wiki/Girard_Desargues) — Wikipedia
+- [Filippo Brunelleschi](https://en.wikipedia.org/wiki/Filippo_Brunelleschi) — Wikipedia
+- [Filippo Brunelleschi](https://www.britannica.com/biography/Filippo-Brunelleschi) — Britannica
+- [Linear Perspective](https://www.britannica.com/art/linear-perspective) — Britannica
+- [Leon Battista Alberti](https://en.wikipedia.org/wiki/Leon_Battista_Alberti) — Wikipedia
+- [Leon Battista Alberti](https://www.lindahall.org/about/news/scientist-of-the-day/leon-battista-alberti/) — Linda Hall Library
+- [De pictura — On Painting (1435)](https://en.wikipedia.org/wiki/De_pictura) — Wikipedia
+- [Brunelleschi's Experiment — Linear Perspective](https://smarthistory.org/linear-perspective-brunelleschis-experiment/) — Smarthistory
+- [Mathematics and Art](https://mathshistory.st-andrews.ac.uk/HistTopics/Art/) — MacTutor, Universidade de St Andrews
+- [The Mathematics of Painting: Birth of Projective Geometry in the Italian Renaissance](https://arxiv.org/abs/2210.13295) — arXiv
+- [From Perspectival Art to Projective Geometry](https://www.academia.edu/9938404/From_perspectival_art_to_projective_geometry) — Academia.edu
+- [The Perspectival Eye](https://www.glass-bead.org/research-platform/the-perspectival-eye/) — Glass-Bead
+- [The History of Perspective](https://www.essentialvermeer.com/technique/perspective/history.html) — Essential Vermeer
 - [Girard Desargues](https://www.britannica.com/biography/Girard-Desargues) — Britannica
 - [Girard Desargues — Biography](https://mathshistory.st-andrews.ac.uk/Biographies/Desargues/) — MacTutor, Universidade de St Andrews
 - [Girard Desargues and Projective Geometry](https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/girard-desargues-and-projective-geometry) — Encyclopedia.com
