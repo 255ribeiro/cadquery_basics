@@ -2,82 +2,102 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://255ribeiro.github.io/cadquery_basics/index.html</loc>
-         <lastmod>2026-03-30</lastmod>
+         <lastmod>2026-04-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/cadquery_basics/conceitos/Resumo_GitHub_Copilot_Educacao_2026.html</loc>
-         <lastmod>2026-03-30</lastmod>
+         <lastmod>2026-04-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/cadquery_basics/conceitos/descritiva_vs_projetiva.html</loc>
-         <lastmod>2026-03-30</lastmod>
+         <lastmod>2026-04-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/cadquery_basics/conceitos/matrizes_de_transformacao.html</loc>
-         <lastmod>2026-03-30</lastmod>
+         <lastmod>2026-04-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/cadquery_basics/down_files/down_files.html</loc>
-         <lastmod>2026-03-30</lastmod>
+         <lastmod>2026-04-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/cadquery_basics/tuto_colab/2d_to_3d.html</loc>
-         <lastmod>2026-03-30</lastmod>
+         <lastmod>2026-04-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/cadquery_basics/tuto_colab/cadquery_basic_gc.html</loc>
-         <lastmod>2026-03-30</lastmod>
+         <lastmod>2026-04-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/cadquery_basics/tuto_colab/cadquery_multiplos_pav.html</loc>
-         <lastmod>2026-03-30</lastmod>
+         <lastmod>2026-04-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/cadquery_basics/tuto_colab/cadquery_multiplos_pav_perfil.html</loc>
-         <lastmod>2026-03-30</lastmod>
+         <lastmod>2026-04-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/cadquery_basics/tuto_colab/cadquery_primitives_gc.html</loc>
-         <lastmod>2026-03-30</lastmod>
+         <lastmod>2026-04-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/cadquery_basics/tuto_colab/cadquery_trusses_gc.html</loc>
-         <lastmod>2026-03-30</lastmod>
+         <lastmod>2026-04-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://255ribeiro.github.io/cadquery_basics/tuto_colab/diplaced_pavs.html</loc>
+         <lastmod>2026-04-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/cadquery_basics/tuto_colab/multi_pav_cq_ramdom_disp_resolvido.html</loc>
-         <lastmod>2026-03-30</lastmod>
+         <lastmod>2026-04-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/cadquery_basics/tuto_colab/multi_pav_cq_resolvido.html</loc>
-         <lastmod>2026-03-30</lastmod>
+         <lastmod>2026-04-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/cadquery_basics/tuto_colab/multi_pav_loft.html</loc>
-         <lastmod>2026-03-30</lastmod>
+         <lastmod>2026-04-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://255ribeiro.github.io/cadquery_basics/tuto_colab/step_to_ifc.html</loc>
+         <lastmod>2026-04-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://255ribeiro.github.io/cadquery_basics/tuto_colab/step_to_ifc.html</loc>
+         <lastmod>2026-04-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://255ribeiro.github.io/cadquery_basics/tuto_colab/step_to_ifc_mesh.html</loc>
+         <lastmod>2026-04-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/cadquery_basics/tuto_vscode/cadquery_basic_vscode.html</loc>
-         <lastmod>2026-03-30</lastmod>
+         <lastmod>2026-04-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://255ribeiro.github.io/cadquery_basics/tuto_vscode/cadquery_primitives_vscode.html</loc>
-         <lastmod>2026-03-30</lastmod>
+         <lastmod>2026-04-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
