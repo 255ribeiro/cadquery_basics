@@ -9,6 +9,7 @@ version = "0.1.0"
 mkup ={ cmd = "mkdocs gh-deploy" }
 mksrv ={ cmd = "mkdocs serve" }
 pytonb = {cmd = "jupytext --to notebook "}
+nbtopy = {cmd ="jupytext --to py:percent "}
 
 [dependencies]
 python = "3.12.*"
