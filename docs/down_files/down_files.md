@@ -17,5 +17,3 @@
 [Aquivo step 214 Rhino 6](./perfil_step_214.step)
 
 ---
-
-
